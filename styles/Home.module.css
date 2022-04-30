@@ -14,3 +14,8 @@
   bottom: 100px;
   right: 0;
 }
+.baggrund {
+  position: absolute;
+  bottom: -200px;
+  right: -200px;
+}

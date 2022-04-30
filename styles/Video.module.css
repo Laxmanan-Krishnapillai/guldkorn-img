@@ -1,0 +1,47 @@
+.buttonWrapper {
+  background-image: url(/icons/video-box.svg);
+  background-origin: content-box;
+  padding: 10px;
+  height: 200px;
+  border-radius: var(--base-br-radius);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  cursor: pointer;
+}
+
+.videoWrapper {
+  position: absolute;
+  width: clamp(200px, 800px, 95vw);
+  height: clamp(140px, 560px, 60vh);
+  overflow: hidden;
+  transform: translate(-50%, -50%) !important;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+}
+
+@media screen and (min-width: 746px) {
+  .buttonDesktop {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 150px;
+    top: 0px;
+  }
+}
+
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+
+.buttonOnly,
+.buttonDesktop {
+  background: none;
+}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="106" height="105" viewBox="0 0 106 105">
+  <defs>
+    <filter id="Rectangle" x="0" y="0" width="106" height="105" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#05173a" flood-opacity="0.263"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="-0.048" y1="-0.106" x2="0.779" y2="0.82" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a0bcd4"/>
+      <stop offset="1" stop-color="#283f6c"/>
+    </linearGradient>
+  </defs>
+  <g id="play_knap" data-name="play knap" transform="translate(22.5 22.5)">
+    <g transform="matrix(1, 0, 0, 1, -22.5, -22.5)" filter="url(#Rectangle)">
+      <rect id="Rectangle-2" data-name="Rectangle" width="61" height="60" rx="30" transform="translate(22.5 22.5)" fill="#fff" opacity="0.496"/>
+    </g>
+    <circle id="Oval" cx="24.5" cy="24.5" r="24.5" transform="translate(6 5)" opacity="0.898" fill="url(#linear-gradient)"/>
+    <path id="Path" d="M18.271,9.24,2.069.177A1.4,1.4,0,0,0,0,1.437V19.563a1.4,1.4,0,0,0,2.069,1.26l16.2-9.063A1.453,1.453,0,0,0,18.271,9.24Z" transform="translate(22 19)" fill="#fff"/>
+    <path id="Path-2" data-name="Path" d="M3.693,12.6V1.085L2.069.177A1.4,1.4,0,0,0,0,1.437V19.563a1.4,1.4,0,0,0,2.069,1.26l16.2-9.063A1.426,1.426,0,0,0,19,10.495L6.09,14.433A1.875,1.875,0,0,1,3.693,12.6Z" transform="translate(22 19)" fill="#e4eaf8"/>
+  </g>
+</svg>

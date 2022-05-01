@@ -1,22 +1,25 @@
-.buttonWrapper {
-  background-image: url(/icons/video-box.svg);
-  background-origin: content-box;
-  padding: 10px;
-  height: 200px;
-  border-radius: var(--base-br-radius);
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-position: center;
-  cursor: pointer;
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.close,
+.play {
+  position: absolute;
+}
+.play {
+  width: 140px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 400px;
 }
 
 .videoWrapper {
   position: absolute;
-  width: clamp(200px, 800px, 95vw);
-  height: clamp(140px, 560px, 60vh);
+  min-width: 350px;
+  aspect-ratio: 16 / 9;
+  height: 200px;
   overflow: hidden;
   transform: translate(-50%, -50%) !important;
   left: 50%;
@@ -25,23 +28,16 @@
 }
 
 @media screen and (min-width: 746px) {
-  .buttonDesktop {
-    height: 100px;
-    width: 100px;
-    position: relative;
-    left: 150px;
-    top: 0px;
+  .play {
+    left: auto;
+    right: 300px;
+    top: 400px;
+    cursor: pointer;
   }
-}
-
-.hide {
-  display: none;
-}
-.show {
-  display: block;
-}
-
-.buttonOnly,
-.buttonDesktop {
-  background: none;
+  .videoWrapper {
+    min-width: 1143px;
+    aspect-ratio: 16 / 9;
+    height: 600px;
+    top: calc(50% - 30px);
+  }
 }

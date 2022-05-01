@@ -19,3 +19,27 @@
   bottom: -200px;
   right: -200px;
 }
+.desktop {
+  display: none;
+}
+@media screen and (min-width: 746px) {
+  .baggrund {
+    display: none;
+  }
+  .desktop {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    width: 100vw;
+    min-height: 100vh;
+  }
+  .figur {
+    display: none;
+  }
+}
+.pcBaggrund {
+  display: none;
+}

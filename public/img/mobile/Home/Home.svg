@@ -138,7 +138,7 @@
             <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
             <feColorMatrix values="0 0 0 0 5.73679768e-05   0 0 0 0 0.00814402248   0 0 0 0 0.097118433  0 0 0 0.118963068 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <text id="text-40" font-family="AvenirNext-Bold, Avenir Next" font-size="12" font-weight="bold" letter-spacing="-0.1866672" fill="#FFFFFF">
+        <text id="text-40" font-family="Avenir-light" font-size="12" font-weight="bold" letter-spacing="-0.1866672" fill="#FFFFFF">
             <tspan x="25.4900048" y="15">2021 Guldkorn, ApS</tspan>
         </text>
         <filter x="-5.6%" y="-34.4%" width="111.2%" height="181.2%" filterUnits="objectBoundingBox" id="filter-41">
@@ -384,7 +384,7 @@
             <stop stop-color="#364976" offset="0%"></stop>
             <stop stop-color="#101A37" offset="100%"></stop>
         </linearGradient>
-        <text id="text-115" font-family="AvenirNext-Bold, Avenir Next" font-size="25" font-weight="bold" line-spacing="28" letter-spacing="-0.833334286">
+        <text id="text-115" font-family="Avenir-bold" font-size="25" font-weight="bold" line-spacing="28" letter-spacing="-0.833334286">
             <tspan x="0" y="25">Dit helt nye</tspan>
             <tspan x="0" y="53">læringsunivers</tspan>
         </text>
@@ -427,7 +427,7 @@
             <stop stop-color="#8C7FC0" offset="0%"></stop>
             <stop stop-color="#1D1E43" offset="100%"></stop>
         </linearGradient>
-        <text id="text-127" font-family="Avenir-Black, Avenir" font-size="12" font-weight="700" letter-spacing="-0.400000457" fill="#FFFFFF">
+        <text id="text-127" font-family="Avenir-bold" font-size="12" font-weight="700" letter-spacing="-0.400000457" fill="#FFFFFF">
             <tspan x="17" y="20">Home</tspan>
         </text>
         <filter x="-18.2%" y="-37.5%" width="136.4%" height="175.0%" filterUnits="objectBoundingBox" id="filter-128">
@@ -449,7 +449,7 @@
             <stop stop-color="#639BB7" offset="0%"></stop>
             <stop stop-color="#25407B" offset="100%"></stop>
         </linearGradient>
-        <text id="text-133" font-family="Avenir-Light, Avenir" font-size="12" font-weight="300" letter-spacing="-0.400000457" fill="#FFFFFF">
+        <text id="text-133" font-family="Avenir-light" font-size="12" font-weight="300" letter-spacing="-0.400000457" fill="#FFFFFF">
             <tspan x="12" y="20">Eksamenspakker</tspan>
         </text>
         <filter x="-7.1%" y="-37.5%" width="114.3%" height="175.0%" filterUnits="objectBoundingBox" id="filter-134">
@@ -471,7 +471,7 @@
             <stop stop-color="#8ACBC9" offset="0%"></stop>
             <stop stop-color="#117261" offset="100%"></stop>
         </linearGradient>
-        <text id="text-139" font-family="Avenir-Light, Avenir" font-size="12" font-weight="300" letter-spacing="-0.400000457" fill="#FFFFFF">
+        <text id="text-139" font-family="Avenir-light" font-size="12" font-weight="300" letter-spacing="-0.400000457" fill="#FFFFFF">
             <tspan x="20" y="20">Social Club</tspan>
         </text>
         <filter x="-10.7%" y="-37.5%" width="121.4%" height="175.0%" filterUnits="objectBoundingBox" id="filter-140">
@@ -493,7 +493,7 @@
             <stop stop-color="#C88C7D" offset="0%"></stop>
             <stop stop-color="#99255A" offset="100%"></stop>
         </linearGradient>
-        <text id="text-145" font-family="Avenir-Light, Avenir" font-size="12" font-weight="300" letter-spacing="-0.400000457" fill="#FFFFFF">
+        <text id="text-145" font-family="Avenir-light" font-size="12" font-weight="300" letter-spacing="-0.400000457" fill="#FFFFFF">
             <tspan x="18" y="20">App</tspan>
         </text>
         <filter x="-27.3%" y="-37.5%" width="154.5%" height="175.0%" filterUnits="objectBoundingBox" id="filter-146">
@@ -545,14 +545,6 @@
                     <use fill="black" fill-opacity="1" filter="url(#filter-27)" xlink:href="#path-26"></use>
                     <use fill="url(#linearGradient-25)" fill-rule="evenodd" xlink:href="#path-26"></use>
                 </g>
-            </g>
-            <g id="Video-boks" transform="translate(142.000000, 68.000000)">
-                <g id="Rectangle" opacity="0.495675223">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-29)" xlink:href="#path-28"></use>
-                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-28"></use>
-                </g>
-                <circle id="Oval" fill="url(#linearGradient-30)" opacity="0.897693452" cx="30.5" cy="29.5" r="24.5"></circle>
-                <path d="M40.2707321,28.2401515 L24.0693705,19.1772337 C23.1369584,18.6556771 22,19.3477562 22,20.4370822 L22,38.5629178 C22,39.6522438 23.13686,40.3443229 24.0693705,39.8227663 L40.2707321,30.7598485 C41.2430893,30.2158918 41.2430893,28.7841082 40.2707321,28.2401515 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
             </g>
         </g>
         <g id="boks" transform="translate(15.000000, 92.000000)">
@@ -751,7 +743,7 @@
                 <use fill="url(#linearGradient-114)" xlink:href="#text-115"></use>
                 <use fill="#192341" fill-opacity="1" xlink:href="#text-115"></use>
             </g>
-            <text id="Guldkorn-er-et-innov" opacity="0.655831473" font-family="AvenirNext-Medium, Avenir Next" font-size="11" font-weight="400" line-spacing="16" letter-spacing="-0.166667" fill="#6C7598">
+            <text id="Guldkorn-er-et-innov" opacity="0.655831473" font-family="Avenir-light" font-size="11" font-weight="700" line-spacing="16" letter-spacing="-0.166667" fill="#6C7598">
                 <tspan x="0" y="74">Guldkorn er et innovativt læringsunivers skabt for at give </tspan>
                 <tspan x="0" y="90">studerende på folkeskoler og ungdomsuddannelser </tspan>
                 <tspan x="0" y="106">optimale betingelser for at udforske deres potentiale og </tspan>

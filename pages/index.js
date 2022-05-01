@@ -4,14 +4,16 @@ import styles from "../styles/Home.module.css";
 import Video from "../components/video";
 import { useRef, useEffect, useState } from "react";
 export default function Home() {
-  const [mobile, setMobile] = useState(true);
-  const testRef = useRef();
   return (
     <>
       <div className={styles.wrapper}>
         <object
-          ref={testRef}
-          data={`/img/${mobile ? "mobile" : "desktop"}/Home/Home.svg`}
+          className={styles.mobile}
+          data="/img/mobile/Home/Home.svg"
+        ></object>
+        <object
+          className={styles.desktop}
+          data="/img/desktop/home.svg"
         ></object>
         <div className={styles.figur}>
           <Image
@@ -19,6 +21,14 @@ export default function Home() {
             width={177}
             height={358}
             alt="figur"
+          />
+        </div>
+        <div className={styles.pcBaggrund}>
+          <Image
+            src="/img/desktop/Home/univers.png"
+            alt="desktop baggrund"
+            width={901}
+            height={1086}
           />
         </div>
         <div className={styles.baggrund}>
@@ -33,6 +43,7 @@ export default function Home() {
         <a className="tiktok" href="https://www.tiktok.com"></a>
         <a className="instagram" href="https://www.instagram.com"></a>
       </div>
+      <Video />
     </>
   );
 }

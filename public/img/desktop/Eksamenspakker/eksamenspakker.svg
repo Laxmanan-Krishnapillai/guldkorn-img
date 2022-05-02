@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="1957px" height="1448px" viewBox="0 0 1957 1448" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>eksamenspakker</title>
+            <style>
+@font-face {
+  font-family: "Avenir-bold";
+  src: url("/fonts/AvenirNextLTPro-Bold.otf");
+}
+@font-face {
+  font-family: "Avenir-light";
+  src: url("/fonts/AvenirNextLTPro-Regular.otf");
+}
+</style>
     <defs>
         <linearGradient x1="0%" y1="17.4086367%" x2="100%" y2="82.5913633%" id="linearGradient-1">
             <stop stop-color="#E8F1F5" offset="0%"></stop>
@@ -28,7 +38,7 @@
             <stop stop-color="#FFFFFF" stop-opacity="0.4" offset="0%"></stop>
             <stop stop-color="#FFFFFF" stop-opacity="0.2" offset="100%"></stop>
         </linearGradient>
-        <text id="text-9" font-family="AvenirNext-Bold, Avenir Next" font-size="20" font-weight="bold" letter-spacing="-0.311112" fill="#FFFFFF">
+        <text id="text-9" font-family="Avenir-bold" font-size="20" font-weight="bold" letter-spacing="-0.311112" fill="#FFFFFF">
             <tspan x="30.150008" y="20">2021 Guldkorn, ApS</tspan>
         </text>
         <filter x="-3.4%" y="-20.4%" width="106.8%" height="148.1%" filterUnits="objectBoundingBox" id="filter-10">
@@ -285,7 +295,7 @@
             <stop stop-color="#A0BCD4" offset="0%"></stop>
             <stop stop-color="#283F6C" offset="100%"></stop>
         </linearGradient>
-        <text id="text-92" font-family="AvenirNext-Bold, Avenir Next" font-size="18" font-weight="bold" letter-spacing="-0.600000686" fill="#FFFFFF">
+        <text id="text-92" font-family="Avenir-bold" font-size="18" font-weight="bold" letter-spacing="-0.600000686" fill="#FFFFFF">
             <tspan x="26" y="32">FIND DIN EKSAMENSPAKKE</tspan>
         </text>
         <filter x="-3.8%" y="-36.0%" width="107.7%" height="172.0%" filterUnits="objectBoundingBox" id="filter-93">
@@ -297,7 +307,7 @@
             <stop stop-color="#364976" offset="0%"></stop>
             <stop stop-color="#101A37" offset="100%"></stop>
         </linearGradient>
-        <text id="text-95" font-family="AvenirNext-Bold, Avenir Next" font-size="90" font-weight="bold" line-spacing="106" letter-spacing="-2.300003">
+        <text id="text-95" font-family="Avenir-bold" font-size="90" font-weight="bold" line-spacing="106" letter-spacing="-2.300003">
             <tspan x="0" y="151">Giv en toptunet performance </tspan>
             <tspan x="0" y="257">til eksamen med Guldkorns</tspan>
             <tspan x="0" y="363">eksklusive eksamenspakker</tspan>
@@ -307,7 +317,7 @@
             <feGaussianBlur stdDeviation="12.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.00784313725   0 0 0 0 0.0980392157  0 0 0 0.249644886 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <text id="text-97" font-family="Avenir-Heavy, Avenir" font-size="18" font-weight="600" letter-spacing="-0.100001">
+        <text id="text-97" font-family="Avenir-bold" font-size="18" font-weight="900" letter-spacing="-0.100001">
             <tspan x="76" y="18">Styrk din faglighed</tspan>
         </text>
         <filter x="-4.7%" y="-30.0%" width="109.4%" height="160.0%" filterUnits="objectBoundingBox" id="filter-98">
@@ -355,7 +365,7 @@
             <stop stop-color="#215E7D" offset="0%"></stop>
             <stop stop-color="#25407B" offset="100%"></stop>
         </linearGradient>
-        <text id="text-111" font-family="Avenir-Heavy, Avenir" font-size="30" font-weight="600" letter-spacing="-1.00000114" fill="#FFFFFF">
+        <text id="text-111" font-family="Avenir-light" font-size="30" font-weight="900" letter-spacing="-1.00000114" fill="#FFFFFF">
             <tspan x="22" y="39">Eksamenspakker</tspan>
         </text>
         <filter x="-2.7%" y="-14.6%" width="105.9%" height="129.3%" filterUnits="objectBoundingBox" id="filter-112">
@@ -377,7 +387,7 @@
             <stop stop-color="#4C3D86" offset="0%"></stop>
             <stop stop-color="#1D1E43" offset="100%"></stop>
         </linearGradient>
-        <text id="text-117" font-family="Avenir-Light, Avenir" font-size="30" font-weight="300" letter-spacing="-1.00000114" fill="#FFFFFF">
+        <text id="text-117" font-family="Avenir-light" font-size="30" font-weight="300" letter-spacing="-1.00000114" fill="#FFFFFF">
             <tspan x="37" y="39">Home</tspan>
         </text>
         <filter x="-7.7%" y="-14.6%" width="115.4%" height="129.3%" filterUnits="objectBoundingBox" id="filter-118">
@@ -399,7 +409,7 @@
             <stop stop-color="#99255A" offset="0%"></stop>
             <stop stop-color="#AD3F23" offset="100%"></stop>
         </linearGradient>
-        <text id="text-123" font-family="Avenir-Light, Avenir" font-size="30" font-weight="300" letter-spacing="-1.00000114" fill="#FFFFFF">
+        <text id="text-123" font-family="Avenir-light" font-size="30" font-weight="300" letter-spacing="-1.00000114" fill="#FFFFFF">
             <tspan x="35" y="37">App</tspan>
         </text>
         <filter x="-10.9%" y="-14.6%" width="121.8%" height="129.3%" filterUnits="objectBoundingBox" id="filter-124">
@@ -421,7 +431,7 @@
             <stop stop-color="#28A59F" offset="0%"></stop>
             <stop stop-color="#117261" offset="100%"></stop>
         </linearGradient>
-        <text id="text-129" font-family="Avenir-Light, Avenir" font-size="30" font-weight="300" letter-spacing="-1.00000114" fill="#FFFFFF">
+        <text id="text-129" font-family="Avenir-light" font-size="30" font-weight="300" letter-spacing="-1.00000114" fill="#FFFFFF">
             <tspan x="34" y="39">Social Club</tspan>
         </text>
         <filter x="-4.3%" y="-14.6%" width="108.6%" height="129.3%" filterUnits="objectBoundingBox" id="filter-130">
@@ -592,7 +602,7 @@
                                         <use fill="black" fill-opacity="1" filter="url(#filter-59)" xlink:href="#path-58"></use>
                                         <use fill="url(#linearGradient-57)" fill-rule="evenodd" xlink:href="#path-58"></use>
                                     </g>
-                                    <text id="MATEMATIK" fill-rule="nonzero" font-family="AvenirNext-DemiBold, Avenir Next" font-size="30" font-weight="500" line-spacing="106" letter-spacing="-0.657144" fill="#FFFFFF">
+                                    <text id="MATEMATIK" fill-rule="nonzero" font-family="Avenir-light" font-size="30" font-weight="800" line-spacing="106" letter-spacing="-0.657144" fill="#FFFFFF">
                                         <tspan x="52.722148" y="30">MATEMATIK</tspan>
                                     </text>
                                 </g>
@@ -601,7 +611,7 @@
                                         <use fill="black" fill-opacity="1" filter="url(#filter-62)" xlink:href="#path-61"></use>
                                         <use fill="url(#linearGradient-60)" fill-rule="evenodd" xlink:href="#path-61"></use>
                                     </g>
-                                    <text id="BIOLOGI" fill-rule="nonzero" font-family="AvenirNext-DemiBold, Avenir Next" font-size="30" font-weight="500" line-spacing="106" letter-spacing="-0.657144" fill="#FFFFFF">
+                                    <text id="BIOLOGI" fill-rule="nonzero" font-family="Avenir-light" font-size="30" font-weight="800" line-spacing="106" letter-spacing="-0.657144" fill="#FFFFFF">
                                         <tspan x="48.355004" y="30">BIOLOGI</tspan>
                                     </text>
                                 </g>
@@ -610,7 +620,7 @@
                                         <use fill="black" fill-opacity="1" filter="url(#filter-65)" xlink:href="#path-64"></use>
                                         <use fill="url(#linearGradient-63)" fill-rule="evenodd" xlink:href="#path-64"></use>
                                     </g>
-                                    <text id="FYSIK" fill-rule="nonzero" font-family="AvenirNext-DemiBold, Avenir Next" font-size="30" font-weight="500" line-spacing="106" letter-spacing="-0.657144" fill="#FFFFFF">
+                                    <text id="FYSIK" fill-rule="nonzero" font-family="Avenir-light" font-size="30" font-weight="800" line-spacing="106" letter-spacing="-0.657144" fill="#FFFFFF">
                                         <tspan x="38.04286" y="30">FYSIK</tspan>
                                     </text>
                                 </g>
@@ -619,7 +629,7 @@
                                         <use fill="black" fill-opacity="1" filter="url(#filter-68)" xlink:href="#path-67"></use>
                                         <use fill="url(#linearGradient-66)" fill-rule="evenodd" xlink:href="#path-67"></use>
                                     </g>
-                                    <text id="IDRÆT" fill-rule="nonzero" font-family="AvenirNext-DemiBold, Avenir Next" font-size="30" font-weight="500" line-spacing="106" letter-spacing="-0.657144" fill="#FFFFFF">
+                                    <text id="IDRÆT" fill-rule="nonzero" font-family="Avenir-light" font-size="30" font-weight="800" line-spacing="106" letter-spacing="-0.657144" fill="#FFFFFF">
                                         <tspan x="60.80786" y="30">IDRÆT</tspan>
                                     </text>
                                 </g>
@@ -694,7 +704,7 @@
                 <use fill-opacity="1" xlink:href="#text-97"></use>
             </g>
             <line x1="0" y1="12.5" x2="63" y2="12.5" id="Line" stroke="#A4587A" stroke-width="3" opacity="0.9" stroke-linecap="square"></line>
-            <text id="text" font-family="AvenirNext-Bold, Avenir Next" font-size="18" font-weight="bold" line-spacing="38" letter-spacing="-0.100001" fill="#ADB3C8">
+            <text id="text" font-family="Avenir-bold" font-size="18" font-weight="bold" line-spacing="38" letter-spacing="-0.100001" fill="#ADB3C8">
                 <tspan x="0" y="406">Ønsker du at blive rustet inden din eksamen? </tspan>
                 <tspan x="0" y="444">Se vores udvalg af eksamenspakker </tspan>
             </text>

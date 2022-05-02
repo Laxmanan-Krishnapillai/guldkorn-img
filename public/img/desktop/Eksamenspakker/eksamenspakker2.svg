@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="1957px" height="2222px" viewBox="0 0 1957 2222" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>eksamenspakker 2</title>
+                <style>
+@font-face {
+  font-family: "Avenir-bold";
+  src: url("/fonts/AvenirNextLTPro-Bold.otf");
+}
+@font-face {
+  font-family: "Avenir-light";
+  src: url("/fonts/AvenirNextLTPro-Regular.otf");
+}
+</style>
     <defs>
         <linearGradient x1="11.2847481%" y1="0%" x2="88.7152519%" y2="100%" id="linearGradient-1">
             <stop stop-color="#E8F1F5" offset="0%"></stop>
@@ -163,7 +173,7 @@
             <stop stop-color="#FFFFFF" stop-opacity="0.4" offset="0%"></stop>
             <stop stop-color="#FFFFFF" stop-opacity="0.2" offset="100%"></stop>
         </linearGradient>
-        <text id="text-55" font-family="AvenirNext-Bold, Avenir Next" font-size="20" font-weight="bold" letter-spacing="-0.311112" fill="#FFFFFF">
+        <text id="text-55" font-family="Avenir-bold" font-size="20" font-weight="bold" letter-spacing="-0.311112" fill="#FFFFFF">
             <tspan x="30.150008" y="20">2021 Guldkorn, ApS</tspan>
         </text>
         <filter x="-3.4%" y="-20.4%" width="106.8%" height="148.1%" filterUnits="objectBoundingBox" id="filter-56">
@@ -296,7 +306,7 @@
             <stop stop-color="#3F6396" offset="73.5373503%"></stop>
             <stop stop-color="#1257A4" offset="100%"></stop>
         </linearGradient>
-        <text id="text-99" font-family="Avenir-Heavy, Avenir" font-size="18" font-weight="600" letter-spacing="-0.100001">
+        <text id="text-99" font-family="Avenir-light" font-size="18" font-weight="900" letter-spacing="-0.100001">
             <tspan x="76" y="18">Styrk din faglighed</tspan>
         </text>
         <filter x="-4.7%" y="-30.0%" width="109.4%" height="160.0%" filterUnits="objectBoundingBox" id="filter-100">
@@ -304,7 +314,7 @@
             <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <text id="text-101" font-family="AvenirNext-Bold, Avenir Next" font-size="20" font-weight="bold" letter-spacing="-0.311112" fill="#FFFFFF">
+        <text id="text-101" font-family="Avenir-bold" font-size="20" font-weight="bold" letter-spacing="-0.311112" fill="#FFFFFF">
             <tspan x="30.150008" y="20">2021 Guldkorn, ApS</tspan>
         </text>
         <filter x="-3.4%" y="-20.4%" width="106.8%" height="148.1%" filterUnits="objectBoundingBox" id="filter-102">
@@ -533,7 +543,7 @@
             <stop stop-color="#215E7D" offset="0%"></stop>
             <stop stop-color="#25407B" offset="100%"></stop>
         </linearGradient>
-        <text id="text-174" font-family="Avenir-Heavy, Avenir" font-size="30" font-weight="600" letter-spacing="-1.00000114" fill="#FFFFFF">
+        <text id="text-174" font-family="Avenir-bold" font-size="30" font-weight="900" letter-spacing="-1.00000114" fill="#FFFFFF">
             <tspan x="39" y="39">Eksamenspakker</tspan>
         </text>
         <filter x="-2.7%" y="-14.6%" width="105.9%" height="129.3%" filterUnits="objectBoundingBox" id="filter-175">
@@ -555,7 +565,7 @@
             <stop stop-color="#4C3D86" offset="0%"></stop>
             <stop stop-color="#1D1E43" offset="100%"></stop>
         </linearGradient>
-        <text id="text-180" font-family="Avenir-Light, Avenir" font-size="30" font-weight="300" letter-spacing="-1.00000114" fill="#FFFFFF">
+        <text id="text-180" font-family="Avenir-light" font-size="30" font-weight="300" letter-spacing="-1.00000114" fill="#FFFFFF">
             <tspan x="37" y="39">Home</tspan>
         </text>
         <filter x="-7.7%" y="-14.6%" width="115.4%" height="129.3%" filterUnits="objectBoundingBox" id="filter-181">
@@ -577,7 +587,7 @@
             <stop stop-color="#99255A" offset="0%"></stop>
             <stop stop-color="#AD3F23" offset="100%"></stop>
         </linearGradient>
-        <text id="text-186" font-family="Avenir-Light, Avenir" font-size="30" font-weight="300" letter-spacing="-1.00000114" fill="#FFFFFF">
+        <text id="text-186" font-family="Avenir-light" font-size="30" font-weight="300" letter-spacing="-1.00000114" fill="#FFFFFF">
             <tspan x="35" y="37">App</tspan>
         </text>
         <filter x="-10.9%" y="-14.6%" width="121.8%" height="129.3%" filterUnits="objectBoundingBox" id="filter-187">
@@ -599,7 +609,7 @@
             <stop stop-color="#28A59F" offset="0%"></stop>
             <stop stop-color="#117261" offset="100%"></stop>
         </linearGradient>
-        <text id="text-192" font-family="Avenir-Light, Avenir" font-size="30" font-weight="300" letter-spacing="-1.00000114" fill="#FFFFFF">
+        <text id="text-192" font-family="Avenir-light" font-size="30" font-weight="300" letter-spacing="-1.00000114" fill="#FFFFFF">
             <tspan x="34" y="39">Social Club</tspan>
         </text>
         <filter x="-4.3%" y="-14.6%" width="108.6%" height="129.3%" filterUnits="objectBoundingBox" id="filter-193">
@@ -620,7 +630,7 @@
             <feGaussianBlur stdDeviation="6.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.473202579 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <text id="text-200" font-family="AvenirNext-Bold, Avenir Next" font-size="20" font-weight="bold" letter-spacing="-0.311112" fill="#FFFFFF">
+        <text id="text-200" font-family="Avenir-bold" font-size="20" font-weight="bold" letter-spacing="-0.311112" fill="#FFFFFF">
             <tspan x="30.150008" y="20">2021 Guldkorn, ApS</tspan>
         </text>
         <filter x="-3.4%" y="-20.4%" width="106.8%" height="148.1%" filterUnits="objectBoundingBox" id="filter-201">
@@ -770,31 +780,31 @@
                 <use id="Rectangle" fill="url(#linearGradient-12)" xlink:href="#path-15"></use>
             </g>
             <g id="text" transform="translate(79.000000, 123.000000)" fill="#0B093C">
-                <text id="7-moduler-inkl.-stor" font-family="AvenirNext-DemiBold, Avenir Next" font-size="26" font-weight="500" letter-spacing="-0.54166775">
+                <text id="7-moduler-inkl.-stor" font-family="Avenir-light" font-size="26" font-weight="800" letter-spacing="-0.54166775">
                     <tspan x="39.1213517" y="26">7 moduler inkl. stor værktøjskasse</tspan>
                 </text>
-                <text id="Adgang-24/7" font-family="AvenirNext-DemiBold, Avenir Next" font-size="26" font-weight="500" letter-spacing="-0.54166775">
+                <text id="Adgang-24/7" font-family="Avenir-light" font-size="26" font-weight="800" letter-spacing="-0.54166775">
                     <tspan x="607.314173" y="26">Adgang 24/7</tspan>
                 </text>
-                <text id="Egnet-til-alle-nivea" font-family="AvenirNext-DemiBold, Avenir Next" font-size="26" font-weight="500" letter-spacing="-0.54166775">
+                <text id="Egnet-til-alle-nivea" font-family="Avenir-light" font-size="26" font-weight="800" letter-spacing="-0.54166775">
                     <tspan x="941.404179" y="26">Egnet til alle niveauer</tspan>
                 </text>
-                <text id="Community-Access" font-family="AvenirNext-DemiBold, Avenir Next" font-size="26" font-weight="500" letter-spacing="-0.54166775">
+                <text id="Community-Access" font-family="Avenir-light" font-size="26" font-weight="800" letter-spacing="-0.54166775">
                     <tspan x="1368.27834" y="26">Community Access</tspan>
                 </text>
-                <text id="+15-timers-videocoac" font-family="Avenir-Light, Avenir" font-size="24" font-weight="300" letter-spacing="-0.500001">
+                <text id="+15-timers-videocoac" font-family="Avenir-light" font-size="24" font-weight="300" letter-spacing="-0.500001">
                     <tspan x="3.776021" y="68">+15 timers videocoaching, eksamenstræning, </tspan>
                     <tspan x="109.156013" y="101">tutorials, skabeloner m.v.</tspan>
                 </text>
-                <text id="Tag-modulerne-i-dit" font-family="Avenir-Light, Avenir" font-size="24" font-weight="300" letter-spacing="-0.500001">
+                <text id="Tag-modulerne-i-dit" font-family="Avenir-light" font-size="24" font-weight="300" letter-spacing="-0.500001">
                     <tspan x="512.754016" y="68">Tag modulerne i dit tempo. Du får </tspan>
                     <tspan x="523.014017" y="101">unlimited adgang til alt indhold.</tspan>
                 </text>
-                <text id="Både-nystartede-og-d" font-family="Avenir-Light, Avenir" font-size="24" font-weight="300" letter-spacing="-0.500001">
+                <text id="Både-nystartede-og-d" font-family="Avenir-light" font-size="24" font-weight="300" letter-spacing="-0.500001">
                     <tspan x="896.274015" y="68">Både nystartede og dimitterende </tspan>
                     <tspan x="906.976016" y="101">elever kan få glæde af forløbet.</tspan>
                 </text>
-                <text id="Bliv-en-del-af-et-ek" font-family="Avenir-Light, Avenir" font-size="24" font-weight="300" letter-spacing="-0.500001">
+                <text id="Bliv-en-del-af-et-ek" font-family="Avenir-light" font-size="24" font-weight="300" letter-spacing="-0.500001">
                     <tspan x="1348.91201" y="68">Bliv en del af et eksklusivt </tspan>
                     <tspan x="1304.24002" y="101">lukket community med live Q&amp;A’s.</tspan>
                 </text>
@@ -841,11 +851,11 @@
                         <use fill="black" fill-opacity="1" filter="url(#filter-31)" xlink:href="#path-30"></use>
                         <use fill="url(#linearGradient-29)" fill-rule="evenodd" xlink:href="#path-30"></use>
                     </g>
-                    <text id="Du-ser-hele-forløbet" opacity="0.777785528" font-family="Avenir-Medium, Avenir" font-size="24" font-weight="400" letter-spacing="-0.500001">
+                    <text id="Du-ser-hele-forløbet" opacity="0.777785528" font-family="Avenir-light" font-size="24" font-weight="900" letter-spacing="-0.500001">
                         <tspan x="86.07601" y="140" fill="#0B093C">Du ser hele forløbet </tspan>
                         <tspan x="99.7300075" y="173" fill="#0B093C">minimum 1 gang. </tspan>
                     </text>
-                    <text id="1" opacity="0.29734003" font-family="Avenir-Medium, Avenir" font-size="30" font-weight="400" letter-spacing="-0.410715429">
+                    <text id="1" opacity="0.29734003" font-family="Avenir-light" font-size="30" font-weight="900" letter-spacing="-0.410715429">
                         <tspan x="182.365358" y="268" fill="#0B093C">1</tspan>
                     </text>
                     <g filter="url(#filter-32)" fill-rule="evenodd" id="video" stroke-width="1">
@@ -871,7 +881,7 @@
                         <use fill="black" fill-opacity="1" filter="url(#filter-36)" xlink:href="#path-35"></use>
                         <use fill="url(#linearGradient-29)" fill-rule="evenodd" xlink:href="#path-35"></use>
                     </g>
-                    <text id="Du-engagerer-dig-i-v" opacity="0.777785528" font-family="Avenir-Medium, Avenir" font-size="24" font-weight="400" letter-spacing="-0.500001">
+                    <text id="Du-engagerer-dig-i-v" opacity="0.777785528" font-family="Avenir-light" font-size="24" font-weight="800" letter-spacing="-0.500001">
                         <tspan x="61.572012" y="140" fill="#0B093C">Du engagerer dig i vores </tspan>
                         <tspan x="76.0540095" y="173" fill="#0B093C">Facebook community.</tspan>
                     </text>
@@ -879,7 +889,7 @@
                         <use fill="black" fill-opacity="1" filter="url(#filter-38)" xlink:href="#path-37"></use>
                         <use fill="url(#linearGradient-26)" fill-rule="evenodd" xlink:href="#path-37"></use>
                     </g>
-                    <text id="2" opacity="0.29734003" font-family="Avenir-Medium, Avenir" font-size="30" font-weight="400" letter-spacing="-0.410715429">
+                    <text id="2" opacity="0.29734003" font-family="Avenir-light" font-size="30" font-weight="900" letter-spacing="-0.410715429">
                         <tspan x="182.365358" y="268" fill="#0B093C">2</tspan>
                     </text>
                     <g filter="url(#filter-39)" fill-rule="evenodd" id="network" stroke-width="1">
@@ -902,7 +912,7 @@
                         <use fill="black" fill-opacity="1" filter="url(#filter-43)" xlink:href="#path-42"></use>
                         <use fill="url(#linearGradient-29)" fill-rule="evenodd" xlink:href="#path-42"></use>
                     </g>
-                    <text id="Du-deltager-aktivt-i" opacity="0.777785528" font-family="Avenir-Medium, Avenir" font-size="24" font-weight="400" letter-spacing="-0.500001">
+                    <text id="Du-deltager-aktivt-i" opacity="0.777785528" font-family="Avenir-light" font-size="24" font-weight="800" letter-spacing="-0.500001">
                         <tspan x="95.83601" y="140" fill="#0B093C">Du deltager aktivt i </tspan>
                         <tspan x="159.680003" y="173" fill="#0B093C">Q&amp;A’s.</tspan>
                     </text>
@@ -910,7 +920,7 @@
                         <use fill="black" fill-opacity="1" filter="url(#filter-45)" xlink:href="#path-44"></use>
                         <use fill="url(#linearGradient-26)" fill-rule="evenodd" xlink:href="#path-44"></use>
                     </g>
-                    <text id="3" opacity="0.29734003" font-family="Avenir-Medium, Avenir" font-size="30" font-weight="400" letter-spacing="-0.410715429">
+                    <text id="3" opacity="0.29734003" font-family="Avenir-light" font-size="30" font-weight="900" letter-spacing="-0.410715429">
                         <tspan x="182.365358" y="268" fill="#0B093C">3</tspan>
                     </text>
                     <g filter="url(#filter-46)" fill-rule="evenodd" id="social" stroke-width="1">
@@ -935,7 +945,7 @@
                         <use fill="black" fill-opacity="1" filter="url(#filter-50)" xlink:href="#path-49"></use>
                         <use fill="url(#linearGradient-29)" fill-rule="evenodd" xlink:href="#path-49"></use>
                     </g>
-                    <text id="Du-bruger-vores-skab" opacity="0.777785528" font-family="Avenir-Medium, Avenir" font-size="24" font-weight="400" letter-spacing="-0.500001">
+                    <text id="Du-bruger-vores-skab" opacity="0.777785528" font-family="Avenir-light" font-size="24" font-weight="900" letter-spacing="-0.500001">
                         <tspan x="43.6260135" y="140" fill="#0B093C">Du bruger vores skabeloner, </tspan>
                         <tspan x="97.3140075" y="173" fill="#0B093C">dokumenter m.m.</tspan>
                     </text>
@@ -943,7 +953,7 @@
                         <use fill="black" fill-opacity="1" filter="url(#filter-52)" xlink:href="#path-51"></use>
                         <use fill="url(#linearGradient-26)" fill-rule="evenodd" xlink:href="#path-51"></use>
                     </g>
-                    <text id="4" opacity="0.29734003" font-family="Avenir-Medium, Avenir" font-size="30" font-weight="400" letter-spacing="-0.410715429">
+                    <text id="4" opacity="0.29734003" font-family="Avenir-light" font-size="30" font-weight="900" letter-spacing="-0.410715429">
                         <tspan x="182.365358" y="268" fill="#0B093C">4</tspan>
                     </text>
                     <g filter="url(#filter-53)" fill-rule="evenodd" id="folder" stroke-width="1">
@@ -968,14 +978,14 @@
                     </g>
                 </g>
             </g>
-            <text id="text" mask="url(#mask-22)" font-family="Avenir-Light, Avenir" font-size="70" font-weight="300" line-spacing="90" letter-spacing="-0.958336" fill="#0B093C">
+            <text id="text" mask="url(#mask-22)" font-family="Avenir-light" font-size="70" font-weight="300" line-spacing="90" letter-spacing="-0.958336" fill="#0B093C">
                 <tspan x="540.276696" y="120">Hvad det kræver af</tspan>
-                <tspan x="1088.55665" y="102.649872" font-family="Avenir-Black, Avenir" font-weight="700"> </tspan>
-                <tspan x="1112.93831" y="108.179504" font-family="Avenir-Heavy, Avenir" font-weight="600">dig</tspan>
-                <tspan x="1211.9133" y="102.649872" font-family="Avenir-Black, Avenir" font-weight="700"> </tspan>
+                <tspan x="1088.55665" y="102.649872" font-family="Avenir-bold" font-weight="700"> </tspan>
+                <tspan x="1112.93831" y="108.179504" font-family="Avenir-light" font-weight="900">dig</tspan>
+                <tspan x="1211.9133" y="102.649872" font-family="Avenir-bold" font-weight="700"> </tspan>
                 <tspan x="587.561696" y="210">for, at du får</tspan>
-                <tspan x="923.374992" y="192.649872" font-family="Avenir-Black, Avenir" font-weight="700"> </tspan>
-                <tspan x="947.756656" y="198.179504" font-family="Avenir-Heavy, Avenir" font-weight="600">succes</tspan>
+                <tspan x="923.374992" y="192.649872" font-family="Avenir-bold" font-weight="700"> </tspan>
+                <tspan x="947.756656" y="198.179504" font-family="Avenir-light" font-weight="900">succes</tspan>
                 <tspan x="1171.81664" y="210">:</tspan>
             </text>
         </g>
@@ -1232,20 +1242,20 @@
                         <use fill="url(#linearGradient-144)" fill-rule="evenodd" xlink:href="#path-145"></use>
                     </g>
                     <rect id="Rectangle" fill="#000000" opacity="0.20640346" x="53" y="262" width="394" height="64" rx="32"></rect>
-                    <text id="21-Lektioner" font-family="Avenir-Medium, Avenir" font-size="25" font-weight="400" letter-spacing="-0.833334286" fill="#AFB8C3">
+                    <text id="21-Lektioner" font-family="Avenir-light" font-size="25" font-weight="800" letter-spacing="-0.833334286" fill="#AFB8C3">
                         <tspan x="132.125006" y="114">21 Lektioner</tspan>
                     </text>
-                    <text id="16-t." font-family="Avenir-Medium, Avenir" font-size="25" font-weight="400" letter-spacing="-0.833334286" fill="#AFB8C3">
+                    <text id="16-t." font-family="Avenir-light" font-size="25" font-weight="800" letter-spacing="-0.833334286" fill="#AFB8C3">
                         <tspan x="354.608336" y="114">16 t.</tspan>
                     </text>
-                    <text id="6-Dokumenter" font-family="Avenir-Medium, Avenir" font-size="25" font-weight="400" letter-spacing="-0.833334286" fill="#AFB8C3">
+                    <text id="6-Dokumenter" font-family="Avenir-light" font-size="25" font-weight="800" letter-spacing="-0.833334286" fill="#AFB8C3">
                         <tspan x="132.200006" y="177">6 Dokumenter</tspan>
                     </text>
                     <rect id="Rectangle" fill="url(#linearGradient-147)" opacity="0.651436942" x="263" y="266" width="180" height="56" rx="28"></rect>
-                    <text id="Køb-pakke" font-family="Avenir-Medium, Avenir" font-size="29" font-weight="400" letter-spacing="-0.4833343" fill="#FFFFFF">
+                    <text id="Køb-pakke" font-family="Avenir-light" font-size="29" font-weight="800" letter-spacing="-0.4833343" fill="#FFFFFF">
                         <tspan x="285.277504" y="303">Køb pakke</tspan>
                     </text>
-                    <text id="Mundtlig-SRP" font-family="Avenir-Heavy, Avenir" font-size="35" font-weight="600" letter-spacing="-0.466668" fill="#FFFFFF">
+                    <text id="Mundtlig-SRP" font-family="Avenir-light" font-size="35" font-weight="900" letter-spacing="-0.466668" fill="#FFFFFF">
                         <tspan x="82.052508" y="63">Mundtlig SRP</tspan>
                     </text>
                     <g filter="url(#filter-148)" id="video-player">
@@ -1276,7 +1286,7 @@
                         </g>
                     </g>
                     <rect id="Rectangle" fill="#FFFFFF" opacity="0.195196243" x="57" y="266" width="189" height="56" rx="28"></rect>
-                    <text id="Gratis-demo" font-family="Avenir-Medium, Avenir" font-size="28" font-weight="400" letter-spacing="-0.4666676" fill="#313A3F">
+                    <text id="Gratis-demo" font-family="Avenir-light" font-size="28" font-weight="800" letter-spacing="-0.4666676" fill="#313A3F">
                         <tspan x="75.4986718" y="303">Gratis demo</tspan>
                     </text>
                 </g>
@@ -1289,16 +1299,16 @@
                         <use fill="black" fill-opacity="1" filter="url(#filter-153)" xlink:href="#path-152"></use>
                         <use fill="url(#linearGradient-144)" fill-rule="evenodd" xlink:href="#path-152"></use>
                     </g>
-                    <text id="11-Lektioner" font-family="Avenir-Medium, Avenir" font-size="25" font-weight="400" letter-spacing="-0.833334286" fill="#AFB8C3">
+                    <text id="11-Lektioner" font-family="Avenir-light" font-size="25" font-weight="800" letter-spacing="-0.833334286" fill="#AFB8C3">
                         <tspan x="132.125006" y="114">11 Lektioner</tspan>
                     </text>
-                    <text id="12-t." font-family="Avenir-Medium, Avenir" font-size="25" font-weight="400" letter-spacing="-0.833334286" fill="#AFB8C3">
+                    <text id="12-t." font-family="Avenir-light" font-size="25" font-weight="800" letter-spacing="-0.833334286" fill="#AFB8C3">
                         <tspan x="353.108336" y="114">12 t.</tspan>
                     </text>
-                    <text id="5-Dokumenter" font-family="Avenir-Medium, Avenir" font-size="25" font-weight="400" letter-spacing="-0.833334286" fill="#AFB8C3">
+                    <text id="5-Dokumenter" font-family="Avenir-light" font-size="25" font-weight="800" letter-spacing="-0.833334286" fill="#AFB8C3">
                         <tspan x="132.200006" y="177">5 Dokumenter</tspan>
                     </text>
-                    <text id="Eliten" font-family="Avenir-Heavy, Avenir" font-size="35" font-weight="600" letter-spacing="-0.566668" fill="#FFFFFF">
+                    <text id="Eliten" font-family="Avenir-light" font-size="35" font-weight="600" letter-spacing="-0.566668" fill="#FFFFFF">
                         <tspan x="82.442504" y="63">Elite</tspan>
                         <tspan x="152.934164" y="63" letter-spacing="-0.466668">n</tspan>
                     </text>
@@ -1353,16 +1363,16 @@
                         <use fill="black" fill-opacity="1" filter="url(#filter-160)" xlink:href="#path-159"></use>
                         <use fill="url(#linearGradient-144)" fill-rule="evenodd" xlink:href="#path-159"></use>
                     </g>
-                    <text id="21-Lektioner" font-family="Avenir-Medium, Avenir" font-size="25" font-weight="400" letter-spacing="-0.833334286" fill="#AFB8C3">
+                    <text id="21-Lektioner" font-family="Avenir-light" font-size="25" font-weight="800" letter-spacing="-0.833334286" fill="#AFB8C3">
                         <tspan x="133.125006" y="114">21 Lektioner</tspan>
                     </text>
-                    <text id="15-t." font-family="Avenir-Medium, Avenir" font-size="25" font-weight="400" letter-spacing="-0.833334286" fill="#AFB8C3">
+                    <text id="15-t." font-family="Avenir-light" font-size="25" font-weight="800" letter-spacing="-0.833334286" fill="#AFB8C3">
                         <tspan x="352.608336" y="114">15 t.</tspan>
                     </text>
-                    <text id="6-Dokumenter" font-family="Avenir-Medium, Avenir" font-size="25" font-weight="400" letter-spacing="-0.833334286" fill="#AFB8C3">
+                    <text id="6-Dokumenter" font-family="Avenir-light" font-size="25" font-weight="800" letter-spacing="-0.833334286" fill="#AFB8C3">
                         <tspan x="133.200006" y="177">6 Dokumenter</tspan>
                     </text>
-                    <text id="Skriftlig-Dansk-A" font-family="Avenir-Heavy, Avenir" font-size="35" font-weight="600" letter-spacing="-0.466668" fill="#FFFFFF">
+                    <text id="Skriftlig-Dansk-A" font-family="Avenir-light" font-size="35" font-weight="900" letter-spacing="-0.466668" fill="#FFFFFF">
                         <tspan x="82.151678" y="63">Skriftlig Dansk A</tspan>
                     </text>
                     <g filter="url(#filter-161)" id="video-player">
@@ -1408,20 +1418,20 @@
                     </g>
                     <rect id="Rectangle" fill="#000000" opacity="0.20640346" x="52" y="262" width="394" height="64" rx="32"></rect>
                     <rect id="Rectangle" fill="url(#linearGradient-164)" opacity="0.651436942" x="262" y="266" width="180" height="56" rx="28"></rect>
-                    <text id="Køb-pakke" font-family="Avenir-Medium, Avenir" font-size="29" font-weight="400" letter-spacing="-0.483333333" fill="#FFFFFF">
+                    <text id="Køb-pakke" font-family="Avenir-light" font-size="29" font-weight="800" letter-spacing="-0.483333333" fill="#FFFFFF">
                         <tspan x="284.2775" y="303">Køb pakke</tspan>
                     </text>
                     <rect id="Rectangle" fill="#FFFFFF" opacity="0.200637091" x="56" y="266" width="189" height="56" rx="28"></rect>
                     <rect id="Rectangle" fill="#000000" opacity="0.20640346" x="572" y="262" width="394" height="64" rx="32"></rect>
                     <rect id="Rectangle" fill="url(#linearGradient-165)" opacity="0.651436942" x="782" y="266" width="180" height="56" rx="28"></rect>
-                    <text id="Køb-pakke" font-family="Avenir-Medium, Avenir" font-size="29" font-weight="400" letter-spacing="-0.483333333" fill="#FFFFFF">
+                    <text id="Køb-pakke" font-family="Avenir-light" font-size="29" font-weight="800" letter-spacing="-0.483333333" fill="#FFFFFF">
                         <tspan x="804.2775" y="303">Køb pakke</tspan>
                     </text>
                     <rect id="Rectangle" fill="#FFFFFF" opacity="0.201009115" x="576" y="266" width="189" height="56" rx="28"></rect>
-                    <text id="Gratis-demo" opacity="0.496070499" font-family="Avenir-Medium, Avenir" font-size="28" font-weight="400" letter-spacing="-0.466666667" fill="#313A3F">
+                    <text id="Gratis-demo" opacity="0.496070499" font-family="Avenir-light" font-size="28" font-weight="800" letter-spacing="-0.466666667" fill="#313A3F">
                         <tspan x="594.498667" y="303">Gratis demo</tspan>
                     </text>
-                    <text id="Gratis-demo" font-family="Avenir-Medium, Avenir" font-size="28" font-weight="400" letter-spacing="-0.466666667" fill="#313A3F">
+                    <text id="Gratis-demo" font-family="Avenir-light" font-size="28" font-weight="800" letter-spacing="-0.466666667" fill="#313A3F">
                         <tspan x="74.4986667" y="303">Gratis demo</tspan>
                     </text>
                 </g>

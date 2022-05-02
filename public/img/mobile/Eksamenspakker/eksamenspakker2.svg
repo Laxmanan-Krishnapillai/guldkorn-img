@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="375px" height="812px" viewBox="0 0 375 812" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>eksamenspakker options</title>
+<style>
+@font-face {
+  font-family: "Avenir-bold";
+  src: url("/fonts/AvenirNextLTPro-Bold.otf");
+}
+@font-face {
+  font-family: "Avenir-light";
+  src: url("/fonts/AvenirNextLTPro-Regular.otf");
+}
+</style>
     <defs>
         <linearGradient x1="38.5917443%" y1="-3.33273437%" x2="63.6864879%" y2="110.502625%" id="linearGradient-1">
             <stop stop-color="#D6E8FF" offset="0%"></stop>

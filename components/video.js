@@ -9,8 +9,8 @@ export default function Video({
   const [active, setActive] = useState(false);
   useEffect(() => {
     let vid = vidRef.current;
-    vid ? setOffsetTop(vid.offsetTop) : null;
-    console.log(vid.offsetTop);
+    vid ? setOffsetTop(vid.offsetTop - vid.clientHeight / 2) : null;
+    console.log(vid.offsetTop - vid.clientHeight);
   }, [active]);
   return (
     <>

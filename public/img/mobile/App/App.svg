@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="375px" height="812px" viewBox="0 0 375 812" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>App</title>
+    <style>
+@font-face {
+  font-family: "Avenir-bold";
+  src: url("/fonts/AvenirNextLTPro-Bold.otf");
+}
+@font-face {
+  font-family: "Avenir-light";
+  src: url("/fonts/AvenirNextLTPro-Regular.otf");
+}
+</style>
     <defs>
         <linearGradient x1="38.5917443%" y1="-3.33273437%" x2="63.6864879%" y2="110.502625%" id="linearGradient-1">
             <stop stop-color="#D6E8FF" offset="0%"></stop>
@@ -132,7 +142,7 @@
             <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
             <feColorMatrix values="0 0 0 0 5.73679768e-05   0 0 0 0 0.00814402248   0 0 0 0 0.097118433  0 0 0 0.118963068 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <text id="text-41" font-family="AvenirNext-Bold, Avenir Next" font-size="12" font-weight="bold" letter-spacing="-0.1866672" fill="#FFFFFF">
+        <text id="text-41" font-family="Avenir-bold" font-size="12" font-weight="bold" letter-spacing="-0.1866672" fill="#FFFFFF">
             <tspan x="25.4900048" y="15">2021 Guldkorn, ApS</tspan>
         </text>
         <filter x="-5.6%" y="-34.4%" width="111.2%" height="181.2%" filterUnits="objectBoundingBox" id="filter-42">
@@ -269,7 +279,7 @@
             <stop stop-color="#364976" offset="0%"></stop>
             <stop stop-color="#101A37" offset="100%"></stop>
         </linearGradient>
-        <text id="text-85" font-family="AvenirNext-Bold, Avenir Next" font-size="25" font-weight="bold" line-spacing="28" letter-spacing="-0.833334286">
+        <text id="text-85" font-family="Avenir-bold" font-size="25" font-weight="bold" line-spacing="28" letter-spacing="-0.833334286">
             <tspan x="0" y="25">UNLOCK</tspan>
             <tspan x="0" y="53">dit grænseløse </tspan>
             <tspan x="0" y="81">potentiale</tspan>
@@ -313,7 +323,7 @@
             <stop stop-color="#8C7FC0" offset="0%"></stop>
             <stop stop-color="#1D1E43" offset="100%"></stop>
         </linearGradient>
-        <text id="text-97" font-family="Avenir-Light, Avenir" font-size="12" font-weight="300" letter-spacing="-0.400000457" fill="#FFFFFF">
+        <text id="text-97" font-family="Avenir-light" font-size="12" font-weight="300" letter-spacing="-0.400000457" fill="#FFFFFF">
             <tspan x="18" y="20">Home</tspan>
         </text>
         <filter x="-18.8%" y="-37.5%" width="137.5%" height="175.0%" filterUnits="objectBoundingBox" id="filter-98">
@@ -335,7 +345,7 @@
             <stop stop-color="#639BB7" offset="0%"></stop>
             <stop stop-color="#25407B" offset="100%"></stop>
         </linearGradient>
-        <text id="text-103" font-family="Avenir-Light, Avenir" font-size="12" font-weight="300" letter-spacing="-0.400000457" fill="#FFFFFF">
+        <text id="text-103" font-family="Avenir-light" font-size="12" font-weight="300" letter-spacing="-0.400000457" fill="#FFFFFF">
             <tspan x="13" y="20">Eksamenspakker</tspan>
         </text>
         <filter x="-7.1%" y="-37.5%" width="114.3%" height="175.0%" filterUnits="objectBoundingBox" id="filter-104">
@@ -357,7 +367,7 @@
             <stop stop-color="#8ACBC9" offset="0%"></stop>
             <stop stop-color="#117261" offset="100%"></stop>
         </linearGradient>
-        <text id="text-109" font-family="Avenir-Light, Avenir" font-size="12" font-weight="300" letter-spacing="-0.400000457" fill="#FFFFFF">
+        <text id="text-109" font-family="Avenir-light" font-size="12" font-weight="300" letter-spacing="-0.400000457" fill="#FFFFFF">
             <tspan x="20" y="20">Social Club</tspan>
         </text>
         <filter x="-10.7%" y="-37.5%" width="121.4%" height="175.0%" filterUnits="objectBoundingBox" id="filter-110">
@@ -379,7 +389,7 @@
             <stop stop-color="#C88C7D" offset="0%"></stop>
             <stop stop-color="#99255A" offset="100%"></stop>
         </linearGradient>
-        <text id="text-115" font-family="Avenir-Black, Avenir" font-size="12" font-weight="700" letter-spacing="-0.400000457" fill="#FFFFFF">
+        <text id="text-115" font-family="Avenir-bold" font-size="12" font-weight="900" letter-spacing="-0.400000457" fill="#FFFFFF">
             <tspan x="17" y="19">App</tspan>
         </text>
         <filter x="-30.4%" y="-37.5%" width="156.5%" height="175.0%" filterUnits="objectBoundingBox" id="filter-116">
@@ -443,7 +453,7 @@
         <filter x="-129.6%" y="-169.9%" width="359.3%" height="439.9%" filterUnits="objectBoundingBox" id="filter-132">
             <feGaussianBlur stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
         </filter>
-        <text id="text-133" font-family="Avenir-Black, Avenir" font-size="30" font-weight="700" letter-spacing="-1.00000114" fill="#FFFFFF">
+        <text id="text-133" font-family="Avenir-bold" font-size="30" font-weight="900" letter-spacing="-1.00000114" fill="#FFFFFF">
             <tspan x="5.39500457" y="30.5354239">Guldkorn</tspan>
         </text>
         <filter x="-5.9%" y="-17.5%" width="111.9%" height="140.0%" filterUnits="objectBoundingBox" id="filter-134">
@@ -506,47 +516,6 @@
     <g id="App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect id="Rectangle" fill="#FFFFFF" x="1" y="0" width="374" height="812"></rect>
         <rect id="baggrund-" fill="url(#linearGradient-1)" opacity="0.50499907" x="0" y="0" width="375" height="812"></rect>
-        <g id="univers" transform="translate(161.355854, 385.000000)">
-            <path d="M32.0441183,106.843389 L216.79442,0 L216.79442,0 L225.935084,315.08705 C226.767865,343.79378 204.171565,367.740285 175.464835,368.573066 C173.299905,368.635871 171.133166,368.563357 168.977279,368.35595 L80.1798016,359.813183 C56.8639393,357.570079 37.9257121,340.015156 33.9239653,316.93601 L6.84108538,160.741789 C3.11794747,139.269456 13.1789293,117.753362 32.0441183,106.843389 Z" fill="url(#linearGradient-2)"></path>
-            <g id="Stjerner" filter="url(#filter-3)" transform="translate(98.644146, 72.000000)" fill-rule="nonzero">
-                <g id="Path">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
-                    <use fill="#FFFFFF" xlink:href="#path-4"></use>
-                </g>
-                <g id="Path">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
-                    <use fill="#FFFFFF" xlink:href="#path-6"></use>
-                </g>
-                <g id="Path">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
-                    <use fill="#FFFFFF" xlink:href="#path-8"></use>
-                </g>
-                <g id="Path">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-10"></use>
-                    <use fill="#FFFFFF" xlink:href="#path-10"></use>
-                </g>
-                <g id="Path">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-13)" xlink:href="#path-12"></use>
-                    <use fill="#FFFFFF" xlink:href="#path-12"></use>
-                </g>
-                <g id="Path">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-15)" xlink:href="#path-14"></use>
-                    <use fill="#FFFFFF" xlink:href="#path-14"></use>
-                </g>
-                <g id="Path">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-17)" xlink:href="#path-16"></use>
-                    <use fill="#FFFFFF" xlink:href="#path-16"></use>
-                </g>
-                <g id="Path">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-19)" xlink:href="#path-18"></use>
-                    <use fill="#FFFFFF" xlink:href="#path-18"></use>
-                </g>
-                <g id="Path">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-21)" xlink:href="#path-20"></use>
-                    <use fill="#FFFFFF" xlink:href="#path-20"></use>
-                </g>
-            </g>
-        </g>
         <g id="Video-box" transform="translate(15.000000, 416.000000)">
             <mask id="mask-24" fill="white">
                 <use xlink:href="#path-23"></use>
@@ -558,17 +527,6 @@
             <g id="Rectangle" opacity="0.0561290923" mask="url(#mask-24)">
                 <use fill="black" fill-opacity="1" filter="url(#filter-28)" xlink:href="#path-27"></use>
                 <use fill="url(#linearGradient-26)" fill-rule="evenodd" xlink:href="#path-27"></use>
-            </g>
-            <g id="play-knap" mask="url(#mask-24)">
-                <g transform="translate(142.000000, 68.000000)">
-                    <g id="Rectangle" fill="none" opacity="0.495675223">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-30)" xlink:href="#path-29"></use>
-                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-29"></use>
-                    </g>
-                    <circle id="Oval" fill="url(#linearGradient-31)" fill-rule="evenodd" opacity="0.897693452" cx="30.5" cy="29.5" r="24.5"></circle>
-                    <path d="M40.2707321,28.2401515 L24.0693705,19.1772337 C23.1369584,18.6556771 22,19.3477562 22,20.4370822 L22,38.5629178 C22,39.6522438 23.13686,40.3443229 24.0693705,39.8227663 L40.2707321,30.7598485 C41.2430893,30.2158918 41.2430893,28.7841082 40.2707321,28.2401515 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
-                    <path d="M25.6926139,31.5985442 L25.6926139,20.0852415 L24.0693593,19.1772339 C23.1369079,18.6556769 22,19.3477565 22,20.4370831 L22,38.5629295 C22,39.6521553 23.1369079,40.3443358 24.0693593,39.8227788 L40.271404,30.7597547 C40.7593249,30.4868176 41.0018587,29.990284 41,29.4945577 L28.0904024,33.4325199 C26.8941647,33.7973777 25.6926139,32.8783719 25.6926139,31.5985442 Z" id="Path" fill="#E4EAF8" fill-rule="nonzero"></path>
-                </g>
             </g>
         </g>
         <g id="boks" transform="translate(15.000000, 107.000000)">
@@ -700,7 +658,7 @@
                 <use fill="url(#linearGradient-84)" xlink:href="#text-85"></use>
                 <use fill="#192341" fill-opacity="1" xlink:href="#text-85"></use>
             </g>
-            <text id="Med-guldkorn-kan-du" opacity="0.655831473" font-family="AvenirNext-Medium, Avenir Next" font-size="11" font-weight="400" line-spacing="16" letter-spacing="-0.166667" fill="#6C7598">
+            <text id="Med-guldkorn-kan-du" opacity="0.655831473" font-family="Avenir-light" font-size="11" font-weight="900" line-spacing="16" letter-spacing="-0.166667" fill="#6C7598">
                 <tspan x="0" y="104">Med guldkorn kan du nu udvikle dig på alle </tspan>
                 <tspan x="0" y="120">tænkelige områder    For ALLE ungdomsstuderende.</tspan>
             </text>
@@ -714,7 +672,7 @@
                 <use fill="black" fill-opacity="1" filter="url(#filter-89)" xlink:href="#path-88"></use>
                 <use fill="url(#linearGradient-87)" fill-rule="evenodd" xlink:href="#path-88"></use>
             </g>
-            <text id="Kommer-snart" opacity="0.235863095" font-family="AvenirNext-Bold, Avenir Next" font-size="8" font-weight="bold" letter-spacing="-0.121212364" fill="#002172">
+            <text id="Kommer-snart" opacity="0.235863095" font-family="Avenir-bold" font-size="8" font-weight="bold" letter-spacing="-0.121212364" fill="#002172">
                 <tspan x="6.97527418" y="13">Kommer snart </tspan>
             </text>
         </g>

@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="1957px" height="1448px" viewBox="0 0 1957 1448" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>App</title>
+        <style>
+@font-face {
+  font-family: "Avenir-bold";
+  src: url("/fonts/AvenirNextLTPro-Bold.otf");
+}
+@font-face {
+  font-family: "Avenir-light";
+  src: url("/fonts/AvenirNextLTPro-Regular.otf");
+}
+</style>
     <defs>
         <linearGradient x1="0%" y1="17.4086367%" x2="100%" y2="82.5913633%" id="linearGradient-1">
             <stop stop-color="#E8F1F5" offset="0%"></stop>
@@ -121,7 +131,7 @@
             <stop stop-color="#A0BCD4" offset="0%"></stop>
             <stop stop-color="#283F6C" offset="100%"></stop>
         </linearGradient>
-        <text id="text-40" font-family="AvenirNext-Bold, Avenir Next" font-size="20" font-weight="bold" letter-spacing="-0.666667429" fill="#FFFFFF">
+        <text id="text-40" font-family="Avenir-bold" font-size="20" font-weight="bold" letter-spacing="-0.666667429" fill="#FFFFFF">
             <tspan x="31" y="32">Kommer snart</tspan>
         </text>
         <filter x="-7.0%" y="-33.3%" width="114.0%" height="166.7%" filterUnits="objectBoundingBox" id="filter-41">
@@ -133,7 +143,7 @@
             <stop stop-color="#364976" offset="0%"></stop>
             <stop stop-color="#101A37" offset="100%"></stop>
         </linearGradient>
-        <text id="text-43" font-family="AvenirNext-Bold, Avenir Next" font-size="90" font-weight="bold" line-spacing="106" letter-spacing="-3.00000343">
+        <text id="text-43" font-family="Avenir-bold" font-size="90" font-weight="bold" line-spacing="106" letter-spacing="-3.00000343">
             <tspan x="247" y="522">UNLOCK</tspan>
             <tspan x="247" y="628">dit grænseløse </tspan>
             <tspan x="247" y="734">potentiale</tspan>
@@ -143,7 +153,7 @@
             <feGaussianBlur stdDeviation="12.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.00784313725   0 0 0 0 0.0980392157  0 0 0 0.249644886 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <text id="text-45" font-family="Avenir-Heavy, Avenir" font-size="18" font-weight="600" letter-spacing="-0.100001">
+        <text id="text-45" font-family="Avenir-bold" font-size="18" font-weight="600" letter-spacing="-0.100001">
             <tspan x="76" y="18">SOCIALT  MENTALT  FAGLIGT</tspan>
         </text>
         <filter x="-3.0%" y="-30.0%" width="106.0%" height="160.0%" filterUnits="objectBoundingBox" id="filter-46">
@@ -204,7 +214,7 @@
             <stop stop-color="#4C3D86" offset="0%"></stop>
             <stop stop-color="#1D1E43" offset="100%"></stop>
         </linearGradient>
-        <text id="text-63" font-family="Avenir-Light, Avenir" font-size="27" font-weight="300" letter-spacing="-0.900001029" fill="#FFFFFF">
+        <text id="text-63" font-family="Avenir-light" font-size="27" font-weight="300" letter-spacing="-0.900001029" fill="#FFFFFF">
             <tspan x="42" y="38">Home</tspan>
         </text>
         <filter x="-8.6%" y="-16.2%" width="117.1%" height="132.4%" filterUnits="objectBoundingBox" id="filter-64">
@@ -226,7 +236,7 @@
             <stop stop-color="#99255A" offset="0%"></stop>
             <stop stop-color="#AD3F23" offset="100%"></stop>
         </linearGradient>
-        <text id="text-69" font-family="Avenir-Heavy, Avenir" font-size="30" font-weight="600" letter-spacing="-1.00000114" fill="#FFFFFF">
+        <text id="text-69" font-family="Avenir-light" font-size="30" font-weight="600" letter-spacing="-1.00000114" fill="#FFFFFF">
             <tspan x="40" y="37">App</tspan>
         </text>
         <filter x="-10.5%" y="-14.6%" width="121.1%" height="129.3%" filterUnits="objectBoundingBox" id="filter-70">
@@ -248,7 +258,7 @@
             <stop stop-color="#28A59F" offset="0%"></stop>
             <stop stop-color="#117261" offset="100%"></stop>
         </linearGradient>
-        <text id="text-75" font-family="Avenir-Light, Avenir" font-size="27" font-weight="300" letter-spacing="-0.900001029" fill="#FFFFFF">
+        <text id="text-75" font-family="Avenir-light" font-size="27" font-weight="300" letter-spacing="-0.900001029" fill="#FFFFFF">
             <tspan x="41" y="38">Social Club</tspan>
         </text>
         <filter x="-4.8%" y="-16.2%" width="109.5%" height="132.4%" filterUnits="objectBoundingBox" id="filter-76">
@@ -279,7 +289,7 @@
             <stop stop-color="#215E7D" offset="0%"></stop>
             <stop stop-color="#25407B" offset="100%"></stop>
         </linearGradient>
-        <text id="text-84" font-family="Avenir-Light, Avenir" font-size="27" font-weight="300" letter-spacing="-0.900001029" fill="#FFFFFF">
+        <text id="text-84" font-family="Avenir-light" font-size="27" font-weight="300" letter-spacing="-0.900001029" fill="#FFFFFF">
             <tspan x="21" y="38">Eksamenspakker</tspan>
         </text>
         <filter x="-3.2%" y="-16.2%" width="107.0%" height="132.4%" filterUnits="objectBoundingBox" id="filter-85">
@@ -300,7 +310,7 @@
             <feGaussianBlur stdDeviation="6.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.473202579 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <text id="text-92" font-family="AvenirNext-Bold, Avenir Next" font-size="20" font-weight="bold" letter-spacing="-0.311112" fill="#FFFFFF">
+        <text id="text-92" font-family="Avenir-bold" font-size="20" font-weight="bold" letter-spacing="-0.311112" fill="#FFFFFF">
             <tspan x="30.150008" y="20">2021 Guldkorn, ApS</tspan>
         </text>
         <filter x="-3.4%" y="-20.4%" width="106.8%" height="148.1%" filterUnits="objectBoundingBox" id="filter-93">
@@ -532,7 +542,7 @@
             <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
             <circle id="Oval" cx="92.5" cy="1.5" r="1.5"></circle>
         </g>
-        <text id="text" font-family="AvenirNext-Bold, Avenir Next" font-size="18" font-weight="bold" line-spacing="38" letter-spacing="-0.100001" fill="#ADB3C8">
+        <text id="text" font-family="Avenir-bold" font-size="18" font-weight="bold" line-spacing="38" letter-spacing="-0.100001" fill="#ADB3C8">
             <tspan x="247" y="795">Med guldkorn kan du nu udvikle dig på alle </tspan>
             <tspan x="247" y="833">tænkelige områder    For ALLE ungdomsstuderende</tspan>
         </text>

@@ -3,6 +3,9 @@ import Image from "next/image";
 import styles from "../styles/Video.module.css";
 export default function Video({
   src = "https://www.youtube.com/embed/US8ePkxYI3E",
+  top,
+  left,
+  adem,
 }) {
   const [offsetTop, setOffsetTop] = useState(0);
   const vidRef = useRef();
@@ -15,7 +18,7 @@ export default function Video({
   return (
     <>
       <div
-        className={`${styles.play}`}
+        className={`${styles.play} ${adem}`}
         onClick={(event) => {
           setActive(true);
         }}
@@ -30,7 +33,7 @@ export default function Video({
       </div>
       <div
         className={`${styles.close} ${!active ? styles.hide : null}`}
-        style={{ top: offsetTop }}
+        style={{ top: top }}
         onClick={(e) => setActive(false)}
       >
         <Image

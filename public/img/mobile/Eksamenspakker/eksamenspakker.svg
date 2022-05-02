@@ -564,44 +564,6 @@
                 <path d="M25.6926139,31.5985442 L25.6926139,20.0852415 L24.0693593,19.1772339 C23.1369079,18.6556769 22,19.3477565 22,20.4370831 L22,38.5629295 C22,39.6521553 23.1369079,40.3443358 24.0693593,39.8227788 L40.271404,30.7597547 C40.7593249,30.4868176 41.0018587,29.990284 41,29.4945577 L28.0904024,33.4325199 C26.8941647,33.7973777 25.6926139,32.8783719 25.6926139,31.5985442 Z" id="Path" fill="#E4EAF8" fill-rule="nonzero"></path>
             </g>
         </g>
-        <g id="baggrund-design" transform="translate(262.000000, 408.000000)">
-            <g id="Matematik" transform="translate(0.000000, 81.000000)">
-                <g id="Rectangle">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-14)" xlink:href="#path-13"></use>
-                    <use fill="url(#linearGradient-12)" fill-rule="evenodd" xlink:href="#path-13"></use>
-                </g>
-                <text id="MATEMATIK" fill-rule="nonzero" font-family="AvenirNext-DemiBold, Avenir Next" font-size="13" font-weight="500" line-spacing="106" letter-spacing="-0.2847624" fill="#FFFFFF">
-                    <tspan x="14.7629308" y="13">MATEMATIK</tspan>
-                </text>
-            </g>
-            <g id="biologi" transform="translate(23.000000, 41.000000)">
-                <g id="Rectangle">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-17)" xlink:href="#path-16"></use>
-                    <use fill="url(#linearGradient-15)" fill-rule="evenodd" xlink:href="#path-16"></use>
-                </g>
-                <text id="BIOLOGI" fill-rule="nonzero" font-family="AvenirNext-DemiBold, Avenir Next" font-size="13" font-weight="500" line-spacing="106" letter-spacing="-0.2847624" fill="#FFFFFF">
-                    <tspan x="14.9371684" y="13">BIOLOGI</tspan>
-                </text>
-            </g>
-            <g id="fysik" transform="translate(51.000000, 0.000000)">
-                <g id="Rectangle">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-20)" xlink:href="#path-19"></use>
-                    <use fill="url(#linearGradient-18)" fill-rule="evenodd" xlink:href="#path-19"></use>
-                </g>
-                <text id="FYSIK" fill-rule="nonzero" font-family="AvenirNext-DemiBold, Avenir Next" font-size="13" font-weight="500" line-spacing="106" letter-spacing="-0.2847624" fill="#FFFFFF">
-                    <tspan x="13.401906" y="13">FYSIK</tspan>
-                </text>
-            </g>
-            <g id="idræt" transform="translate(14.000000, 122.000000)">
-                <g id="Rectangle">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-23)" xlink:href="#path-22"></use>
-                    <use fill="url(#linearGradient-21)" fill-rule="evenodd" xlink:href="#path-22"></use>
-                </g>
-                <text id="IDRÆT" fill-rule="nonzero" font-family="AvenirNext-DemiBold, Avenir Next" font-size="13" font-weight="500" line-spacing="106" letter-spacing="-0.2847624" fill="#FFFFFF">
-                    <tspan x="14.333406" y="13">IDRÆT</tspan>
-                </text>
-            </g>
-        </g>
         <g id="boks" transform="translate(15.000000, 117.000000)">
             <mask id="mask-25" fill="white">
                 <use xlink:href="#path-24"></use>
@@ -616,47 +578,6 @@
             </g>
         </g>
         <rect id="fade" fill="url(#linearGradient-30)" opacity="0" x="1" y="-38" width="375" height="245"></rect>
-        <g id="Univers" transform="translate(217.000000, 398.464844)">
-            <path d="M36.7786845,111.054108 L268.521486,0 L268.521486,0 L279.959322,326.710117 C280.964127,355.41134 258.511743,379.492835 229.810519,380.497639 C227.825729,380.567125 225.838588,380.522848 223.858862,380.365026 L88.5554864,369.578727 C65.5564329,367.745257 46.515589,350.976392 41.7901297,328.393476 L8.3530382,168.597997 C3.4485959,145.159723 15.184274,121.402425 36.7786845,111.054108 Z" id="Rectangle" fill="url(#linearGradient-31)"></path>
-            <g id="Stjerner" filter="url(#filter-32)" transform="translate(106.000000, 84.535156)" fill-rule="nonzero">
-                <g id="Path">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-34)" xlink:href="#path-33"></use>
-                    <use fill="#FFFFFF" xlink:href="#path-33"></use>
-                </g>
-                <g id="Path">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-36)" xlink:href="#path-35"></use>
-                    <use fill="#FFFFFF" xlink:href="#path-35"></use>
-                </g>
-                <g id="Path">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-38)" xlink:href="#path-37"></use>
-                    <use fill="#FFFFFF" xlink:href="#path-37"></use>
-                </g>
-                <g id="Path">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-40)" xlink:href="#path-39"></use>
-                    <use fill="#FFFFFF" xlink:href="#path-39"></use>
-                </g>
-                <g id="Path">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-42)" xlink:href="#path-41"></use>
-                    <use fill="#FFFFFF" xlink:href="#path-41"></use>
-                </g>
-                <g id="Path">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-44)" xlink:href="#path-43"></use>
-                    <use fill="#FFFFFF" xlink:href="#path-43"></use>
-                </g>
-                <g id="Path">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-46)" xlink:href="#path-45"></use>
-                    <use fill="#FFFFFF" xlink:href="#path-45"></use>
-                </g>
-                <g id="Path">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-48)" xlink:href="#path-47"></use>
-                    <use fill="#FFFFFF" xlink:href="#path-47"></use>
-                </g>
-                <g id="Path">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-50)" xlink:href="#path-49"></use>
-                    <use fill="#FFFFFF" xlink:href="#path-49"></use>
-                </g>
-            </g>
-        </g>
         <g id="text" transform="translate(35.000000, 138.000000)">
             <g id="Giv-en-toptunet-perf" opacity="0.8" fill-rule="nonzero">
                 <use fill="#192341" fill-opacity="1" filter="url(#filter-53)" xlink:href="#text-52"></use>

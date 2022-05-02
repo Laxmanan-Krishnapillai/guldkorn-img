@@ -2,11 +2,14 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Video from "../components/video";
+import unique from "../styles/Unique.module.css";
 import { useRef, useEffect, useState } from "react";
+import MobileMenu from "../components/mobileMenu";
 export default function Eksamenspakker() {
   return (
     <>
       <div className={styles.wrapper}>
+        <MobileMenu />
         <object
           className={styles.mobile}
           data="/img/mobile/Eksamenspakker/Eksamenspakker2.svg"
@@ -15,28 +18,12 @@ export default function Eksamenspakker() {
           className={styles.desktop}
           data="/img/desktop/Eksamenspakker/Eksamenspakker2.svg"
         ></object>
-        <div className={styles.figur}>
-          <Image
-            src="/img/mobile/Home/3DFigurHome.png"
-            width={177}
-            height={358}
-            alt="figur"
-          />
-        </div>
         <div className={styles.pcBaggrund}>
           <Image
             src="/img/desktop/Home/univers.png"
             alt="desktop baggrund"
             width={901}
             height={1086}
-          />
-        </div>
-        <div className={styles.baggrund}>
-          <Image
-            src="/img/mobile/Home/universHome.png"
-            width={678}
-            height={865}
-            alt="figur"
           />
         </div>
         <a className="facebook" href="https://www.facebook.com"></a>

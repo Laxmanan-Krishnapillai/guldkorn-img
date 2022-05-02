@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 1957 1403" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style>
+    @font-face {
+      font-family: "Avenir-bold";
+      src: url("/fonts/AvenirNextLTPro-Bold.otf");
+    }
+
+    @font-face {
+      font-family: "Avenir-light";
+      src: url("/fonts/AvenirNextLTPro-Regular.otf");
+    }
+
+    #under-rubrik {
+      font-family: "Avenir-light";
+    }
+  </style>
+  <title>Home</title>
+  <defs>
+    <linearGradient id="t" x1="34.839%" x2="79.208%" y1="15.974%" y2="90.71%">
+      <stop stop-color="#fff" stop-opacity=".4" offset="0" />
+      <stop stop-color="#fff" stop-opacity=".2" offset="1" />
+    </linearGradient>
+    <linearGradient id="s" x1="34.839%" x2="79.208%" y1="49.866%" y2="50.16%">
+      <stop stop-color="#fff" stop-opacity=".4" offset="0" />
+      <stop stop-color="#fff" stop-opacity=".2" offset="1" />
+    </linearGradient>
+    <rect id="j" width="1196" height="75" rx="37.5" />
+    <filter id="ad" x="-3.1%" y="-50%" width="106.3%" height="200%">
+      <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1" />
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="12.5" />
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 5.73679768e-05   0 0 0 0 0.00814402248   0 0 0 0 0.097118433  0 0 0 0.0562172203 0" />
+    </filter>
+    <linearGradient id="r" x1="34.839%" x2="79.208%" y1="47.722%" y2="52.726%">
+      <stop stop-color="#fff" stop-opacity=".4" offset="0" />
+      <stop stop-color="#fff" stop-opacity=".2" offset="1" />
+    </linearGradient>
+    <path id="i" d="m29.5 0h169c16.292-3.4448e-14 29.5 13.208 29.5 29.5s-13.208 29.5-29.5 29.5h-169c-16.292 0-29.5-13.208-29.5-29.5s13.208-29.5 29.5-29.5z" />
+    <filter id="ac" x="-6.6%" y="-25.4%" width="113.2%" height="150.8%">
+      <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1" />
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5" />
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 5.73679768e-05   0 0 0 0 0.00814402248   0 0 0 0 0.097118433  0 0 0 0.198563156 0" />
+    </filter>
+    <linearGradient id="q" x2="120.93%" y1="47.427%" y2="52.573%">
+      <stop stop-color="#215E7D" offset="0" />
+      <stop stop-color="#25407B" offset="1" />
+    </linearGradient>
+    <text id="d" fill="#FFFFFF" font-family="Avenir-light" font-size="24" font-weight="300" letter-spacing="-.9">
+      <tspan x="26" y="38">Eksamenspakker</tspan>
+    </text>
+    <filter id="ab" x="-3.2%" y="-16.2%" width="107%" height="132.4%">
+      <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1" />
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2" />
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.346700175 0" />
+    </filter>
+    <linearGradient id="p" x1="34.839%" x2="79.208%" y1="45.649%" y2="55.205%">
+      <stop stop-color="#fff" stop-opacity=".4" offset="0" />
+      <stop stop-color="#fff" stop-opacity=".2" offset="1" />
+    </linearGradient>
+    <rect id="h" width="165" height="59" rx="29.5" />
+    <filter id="aa" x="-9.1%" y="-25.4%" width="118.2%" height="150.8%">
+      <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1" />
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5" />
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 5.73679768e-05   0 0 0 0 0.00814402248   0 0 0 0 0.097118433  0 0 0 0.198563156 0" />
+    </filter>
+    <linearGradient id="o" x2="120.93%" y1="44.804%" y2="55.196%">
+      <stop stop-color="#4C3D86" offset="0" />
+      <stop stop-color="#1D1E43" offset="1" />
+    </linearGradient>
+    <text id="c" fill="#FFFFFF" font-family="Avenir-bold" font-size="24" font-weight="600" letter-spacing="-.9">
+      <tspan x="30" y="38">Home</tspan>
+    </text>
+    <filter id="z" x="-8.3%" y="-16.2%" width="116.7%" height="132.4%">
+      <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1" />
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2" />
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.346700175 0" />
+    </filter>
+    <linearGradient id="n" x1="34.839%" x2="79.208%" y1="42.657%" y2="58.786%">
+      <stop stop-color="#fff" stop-opacity=".4" offset="0" />
+      <stop stop-color="#fff" stop-opacity=".2" offset="1" />
+    </linearGradient>
+    <rect id="g" width="127" height="59" rx="29.5" />
+    <filter id="y" x="-11.8%" y="-25.4%" width="123.6%" height="150.8%">
+      <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1" />
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5" />
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 5.73679768e-05   0 0 0 0 0.00814402248   0 0 0 0 0.097118433  0 0 0 0.198563156 0" />
+    </filter>
+    <linearGradient id="m" x1="-29.922%" x2="120.93%" y1="33.601%" y2="59.402%">
+      <stop stop-color="#99255A" offset="0" />
+      <stop stop-color="#AD3F23" offset="1" />
+    </linearGradient>
+    <text id="b" fill="#FFFFFF" font-family="Avenir-light" font-size="24" font-weight="300" letter-spacing="-.9">
+      <tspan x="39" y="38">App</tspan>
+    </text>
+    <filter id="x" x="-12.2%" y="-16.2%" width="124.5%" height="132.4%">
+      <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1" />
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2" />
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.346700175 0" />
+    </filter>
+    <linearGradient id="l" x1="34.839%" x2="79.208%" y1="47.236%" y2="53.307%">
+      <stop stop-color="#fff" stop-opacity=".4" offset="0" />
+      <stop stop-color="#fff" stop-opacity=".2" offset="1" />
+    </linearGradient>
+    <rect id="f" width="207" height="59" rx="29.5" />
+    <filter id="w" x="-7.2%" y="-25.4%" width="114.5%" height="150.8%">
+      <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1" />
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5" />
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 5.73679768e-05   0 0 0 0 0.00814402248   0 0 0 0 0.097118433  0 0 0 0.198563156 0" />
+    </filter>
+    <linearGradient id="k" x1="-13.856%" x2="109.15%" y1="46.081%" y2="53.157%">
+      <stop stop-color="#28A59F" offset="0" />
+      <stop stop-color="#117261" offset="1" />
+    </linearGradient>
+    <text id="a" fill="#FFFFFF" font-family="Avenir-light" font-size="24" font-weight="300" letter-spacing="-.9">
+      <tspan x="41" y="38">Social Club</tspan>
+    </text>
+    <filter id="v" x="-4.8%" y="-16.2%" width="109.5%" height="132.4%">
+      <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1" />
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2" />
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.346700175 0" />
+    </filter>
+    <circle id="e" cx="16.5" cy="16.5" r="16.5" />
+    <filter id="u" x="-45.5%" y="-45.5%" width="190.9%" height="190.9%">
+      <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1" />
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5" />
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 5.73679768e-05   0 0 0 0 0.00814402248   0 0 0 0 0.097118433  0 0 0 0.198563156 0" />
+    </filter>
+    <filter id="ae">
+      <feColorMatrix in="SourceGraphic" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0" />
+    </filter>
+  </defs>
+  <g id="ag" fill="none" fill-rule="evenodd">
+    <g transform="translate(456 212)">
+      <use fill="black" filter="url(#ad)" xlink:href="#j" />
+      <use fill="url(#s)" fill-rule="evenodd" xlink:href="#j" />
+    </g>
+  </g>
+</svg>

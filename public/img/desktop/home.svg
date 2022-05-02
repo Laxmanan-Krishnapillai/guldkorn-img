@@ -578,15 +578,17 @@
                 <use fill="url(#linearGradient-71)" fill-rule="evenodd" xlink:href="#path-72"></use>
             </g>
             <g id="Goodgrades" transform="translate(599.000000, 8.000000)">
-                <g id="Rectangle">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-76)" xlink:href="#path-75"></use>
-                    <use fill="url(#linearGradient-74)" fill-rule="evenodd" xlink:href="#path-75"></use>
-                </g>
-                <rect id="Rectangle" fill="url(#linearGradient-77)" opacity="0.897693452" x="6" y="5" width="216" height="49" rx="24.5"></rect>
-                <g id="Eksamenspakker" fill="#FFFFFF" fill-opacity="1">
-                    <use filter="url(#filter-79)" xlink:href="#text-78"></use>
-                    <use xlink:href="#text-78"></use>
-                </g>
+                <a xlink:href="/eksamenspakker" target="_blank">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-76)" xlink:href="#path-75"></use>
+                        <use fill="url(#linearGradient-74)" fill-rule="evenodd" xlink:href="#path-75"></use>
+                    </g>
+                    <rect id="Rectangle" fill="url(#linearGradient-77)" opacity="0.897693452" x="6" y="5" width="216" height="49" rx="24.5"></rect>
+                    <g id="Eksamenspakker" fill="#FFFFFF" fill-opacity="1">
+                        <use filter="url(#filter-79)" xlink:href="#text-78"></use>
+                        <use xlink:href="#text-78"></use>
+                    </g>
+                </a>
             </g>
             <g id="Home" transform="translate(11.000000, 8.000000)">
                 <g id="Rectangle">

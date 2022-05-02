@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="227px" height="79px" viewBox="0 0 227 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>social club</title>
+    <defs>
+        <linearGradient x1="34.8394439%" y1="47.2358031%" x2="79.2076772%" y2="53.3072395%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.4" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="207" height="59" rx="29.5"></rect>
+        <filter x="-7.2%" y="-25.4%" width="114.5%" height="150.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 5.73679768e-05   0 0 0 0 0.00814402248   0 0 0 0 0.097118433  0 0 0 0.198563156 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="-13.856151%" y1="46.0807685%" x2="109.153228%" y2="53.1571335%" id="linearGradient-4">
+            <stop stop-color="#28A59F" offset="0%"></stop>
+            <stop stop-color="#117261" offset="100%"></stop>
+        </linearGradient>
+        <text id="text-5" font-family="Avenir-Light, Avenir" font-size="30" font-weight="300" letter-spacing="-1.00000114" fill="#FFFFFF">
+            <tspan x="34" y="39">Social Club</tspan>
+        </text>
+        <filter x="-4.3%" y="-14.6%" width="108.6%" height="129.3%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.346700175 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="eksamenspakker-2" transform="translate(-1428.000000, -210.000000)">
+            <g id="sidehoved" transform="translate(456.000000, 212.000000)">
+                <g id="social-club" transform="translate(982.000000, 8.000000)">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    </g>
+                    <rect id="Rectangle" fill="url(#linearGradient-4)" opacity="0.897693452" x="6" y="5" width="195" height="49" rx="24.5"></rect>
+                    <g id="Social-Club" fill="#FFFFFF" fill-opacity="1">
+                        <use filter="url(#filter-6)" xlink:href="#text-5"></use>
+                        <use xlink:href="#text-5"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

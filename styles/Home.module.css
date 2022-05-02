@@ -22,6 +22,11 @@
 .desktop {
   display: none;
 }
+
+.eksamenvido {
+  top: 460px !important;
+}
+
 @media screen and (min-width: 746px) {
   .baggrund {
     display: none;
@@ -38,6 +43,11 @@
   }
   .figur {
     display: none;
+  }
+  .eksamenvido {
+    top: 602.5px !important;
+    left: 457.5px !important;
+    right: auto !important;
   }
 }
 .pcBaggrund {

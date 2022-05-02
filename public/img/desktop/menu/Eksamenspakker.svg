@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="317px" height="79px" viewBox="0 0 317 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>eksamenspakker</title>
+    <defs>
+        <linearGradient x1="34.8394439%" y1="48.6572451%" x2="79.2076772%" y2="51.606547%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.4" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <path d="M29.5,0 L267.5,0 C283.7924,-2.99286535e-15 297,13.2075999 297,29.5 C297,45.7924001 283.7924,59 267.5,59 L29.5,59 C13.2075999,59 1.99524357e-15,45.7924001 0,29.5 C-1.99524357e-15,13.2075999 13.2075999,1.00982927e-14 29.5,0 Z" id="path-2"></path>
+        <filter x="-5.1%" y="-25.4%" width="110.1%" height="150.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 5.73679768e-05   0 0 0 0 0.00814402248   0 0 0 0 0.097118433  0 0 0 0.198563156 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="48.5220068%" x2="120.927148%" y2="51.4779932%" id="linearGradient-4">
+            <stop stop-color="#215E7D" offset="0%"></stop>
+            <stop stop-color="#25407B" offset="100%"></stop>
+        </linearGradient>
+        <text id="text-5" font-family="Avenir-Heavy, Avenir" font-size="30" font-weight="600" letter-spacing="-1.00000114" fill="#FFFFFF">
+            <tspan x="39" y="39">Eksamenspakker</tspan>
+        </text>
+        <filter x="-2.7%" y="-14.6%" width="105.9%" height="129.3%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.346700175 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="eksamenspakker-2" transform="translate(-453.000000, -210.000000)">
+            <g id="sidehoved" transform="translate(456.000000, 212.000000)">
+                <g id="eksamenspakker" transform="translate(7.000000, 8.000000)">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    </g>
+                    <path d="M30.5,5 L266.5,5 C280.030976,5 291,15.9690236 291,29.5 C291,43.0309764 280.030976,54 266.5,54 L30.5,54 C16.9690236,54 6,43.0309764 6,29.5 C6,15.9690236 16.9690236,5 30.5,5 Z" id="Rectangle" fill="url(#linearGradient-4)" opacity="0.897693452"></path>
+                    <g id="Eksamenspakker" fill="#FFFFFF" fill-opacity="1">
+                        <use filter="url(#filter-6)" xlink:href="#text-5"></use>
+                        <use xlink:href="#text-5"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -534,47 +534,6 @@
         <rect id="Rectangle" fill="#FFFFFF" x="1" y="0" width="374" height="812"></rect>
         <rect id="baggrund-" fill="url(#linearGradient-1)" opacity="0.50499907" x="0" y="0" width="375" height="812"></rect>
         <rect id="Fade-" fill="url(#linearGradient-2)" opacity="0" x="1" y="22" width="375" height="245"></rect>
-        <g id="univers" transform="translate(217.000000, 437.464844)">
-            <path d="M37.628423,108.020719 L268.521486,0.53515625 L268.521486,0.53515625 L279.901989,316.319832 C280.936309,345.020007 258.508702,369.124578 229.808527,370.158898 C227.845225,370.229653 225.879491,370.189091 223.920779,370.037405 L88.4159766,359.543687 C65.4823967,357.767672 46.4405414,341.135247 41.5968689,318.648759 L8.74005253,166.112761 C3.62777793,142.379302 15.6186204,118.266743 37.628423,108.020719 Z" fill="url(#linearGradient-3)"></path>
-            <g id="stjerne-" transform="translate(106.000000, 98.535156)" fill-rule="nonzero">
-                <g id="Path">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
-                    <use fill="#FFFFFF" xlink:href="#path-4"></use>
-                </g>
-                <g id="Path">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
-                    <use fill="#FFFFFF" xlink:href="#path-6"></use>
-                </g>
-                <g id="Path">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
-                    <use fill="#FFFFFF" xlink:href="#path-8"></use>
-                </g>
-                <g id="Path">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-10"></use>
-                    <use fill="#FFFFFF" xlink:href="#path-10"></use>
-                </g>
-                <g id="Path">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-13)" xlink:href="#path-12"></use>
-                    <use fill="#FFFFFF" xlink:href="#path-12"></use>
-                </g>
-                <g id="Path">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-15)" xlink:href="#path-14"></use>
-                    <use fill="#FFFFFF" xlink:href="#path-14"></use>
-                </g>
-                <g id="Path">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-17)" xlink:href="#path-16"></use>
-                    <use fill="#FFFFFF" xlink:href="#path-16"></use>
-                </g>
-                <g id="Path">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-19)" xlink:href="#path-18"></use>
-                    <use fill="#FFFFFF" xlink:href="#path-18"></use>
-                </g>
-                <g id="Path">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-21)" xlink:href="#path-20"></use>
-                    <use fill="#FFFFFF" xlink:href="#path-20"></use>
-                </g>
-            </g>
-        </g>
         <rect id="blur" fill="#00A1FF" opacity="0.389043899" filter="url(#filter-22)" x="34" y="132" width="305" height="131"></rect>
         <g id="Group" transform="translate(321.000000, 193.000000)" fill="#E4EAF8" fill-rule="nonzero" opacity="0.21">
             <path d="M1.51272289,1.83111811 C1.45518072,1.83111811 1.39672289,1.81946457 1.33913253,1.79552756 C1.0566747,1.67773228 0.76573494,1.57505512 0.474361446,1.49045669 C0.166457831,1.40094488 -0.0276626506,1.00226772 0.041060241,0.599496063 C0.10886747,0.19703937 0.411855422,-0.0587086614 0.722457831,0.0328818898 C1.04684337,0.127055118 1.37127711,0.241700787 1.68631325,0.372913386 C1.98660241,0.498330709 2.15262651,0.91823622 2.0566747,1.31111811 C1.97946988,1.62847244 1.75455422,1.83111811 1.51272289,1.83111811 Z" id="Path"></path>
@@ -911,49 +870,6 @@
                 <tspan x="258.646336" y="111">lukket community </tspan>
                 <tspan x="262.908253" y="126">med live Q&amp;A’s.</tspan>
             </text>
-        </g>
-        <g id="Guldkorn" transform="translate(123.000000, 41.000000)">
-            <g id="guld" transform="translate(1.000000, 4.000000)">
-                <g id="Home-guldkorn" transform="translate(0.782520, 0.765957)">
-                    <g id="Rectangle">
-                        <use fill="url(#linearGradient-126)" fill-rule="evenodd" xlink:href="#path-127"></use>
-                        <use fill="black" fill-opacity="1" filter="url(#filter-128)" xlink:href="#path-127"></use>
-                    </g>
-                    <ellipse id="Oval" fill="#4700FF" filter="url(#filter-129)" cx="19.0416667" cy="14.9361702" rx="7.43394309" ry="5.74468085"></ellipse>
-                    <g id="Rectangle" filter="url(#filter-131)">
-                        <use fill-opacity="0.72" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-130"></use>
-                        <use fill="black" fill-opacity="1" filter="url(#filter-132)" xlink:href="#path-130"></use>
-                    </g>
-                </g>
-                <g id="Oval-2">
-                    <use fill="#312755" fill-rule="evenodd" xlink:href="#path-133"></use>
-                    <use fill="black" fill-opacity="1" filter="url(#filter-134)" xlink:href="#path-133"></use>
-                </g>
-                <rect id="Rectangle" fill="#FFFFFF" opacity="0.530250186" filter="url(#filter-135)" x="13.9552846" y="28.8723404" width="2.34756098" height="3.06382979" rx="1.17378049"></rect>
-                <g id="Oval-2">
-                    <use fill="#FFCF4C" fill-rule="evenodd" xlink:href="#path-136"></use>
-                    <use fill="black" fill-opacity="1" filter="url(#filter-137)" xlink:href="#path-136"></use>
-                </g>
-            </g>
-            <g id="Group-6">
-                <ellipse id="Oval" fill="#2B49C5" filter="url(#filter-138)" cx="20.8285714" cy="22.9744483" rx="11.5714286" ry="8.82694541"></ellipse>
-                <g id="Guldkorn" fill="#FFFFFF" fill-opacity="1">
-                    <use filter="url(#filter-140)" xlink:href="#text-139"></use>
-                    <use xlink:href="#text-139"></use>
-                </g>
-            </g>
-            <g id="Cirkel-Rubrik-2" transform="translate(24.000000, 2.000000)">
-                <g id="Oval">
-                    <use fill="#ACC4D0" fill-rule="evenodd" xlink:href="#path-141"></use>
-                    <use fill="black" fill-opacity="1" filter="url(#filter-142)" xlink:href="#path-141"></use>
-                </g>
-                <rect id="Rectangle" fill="#ACC4D0" filter="url(#filter-143)" x="3.75" y="27.5294118" width="6.75" height="6.88235294" rx="3.375"></rect>
-                <rect id="Rectangle" fill="#F9CCFF" opacity="0.363583519" filter="url(#filter-144)" x="2" y="31" width="6.75" height="6.88235294" rx="3.375"></rect>
-                <g id="Cirkel-Rubrik">
-                    <use fill="#605294" fill-rule="evenodd" xlink:href="#path-145"></use>
-                    <use fill="black" fill-opacity="1" filter="url(#filter-146)" xlink:href="#path-145"></use>
-                </g>
-            </g>
         </g>
         <g id="Rectangle">
             <use fill="black" fill-opacity="1" filter="url(#filter-149)" xlink:href="#path-148"></use>

@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="128px" height="51px" viewBox="0 0 128 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>GoodGrades</title>
+<style>
+@font-face {
+  font-family: "Avenir-bold";
+  src: url("/fonts/AvenirNextLTPro-Bold.otf");
+}
+@font-face {
+  font-family: "Avenir-light";
+  src: url("/fonts/AvenirNextLTPro-Regular.otf");
+}
+</style>
     <defs>
         <linearGradient x1="34.8394439%" y1="47.196623%" x2="79.2076772%" y2="53.3541168%" id="linearGradient-1">
             <stop stop-color="#FFFFFF" stop-opacity="0.4" offset="0%"></stop>
@@ -16,7 +26,7 @@
             <stop stop-color="#639BB7" offset="0%"></stop>
             <stop stop-color="#25407B" offset="100%"></stop>
         </linearGradient>
-        <text id="text-5" font-family="Avenir-Light, Avenir" font-size="12" font-weight="300" letter-spacing="-0.400000457" fill="#FFFFFF">
+        <text id="text-5" font-family="Avenir-light" font-size="12" font-weight="300" letter-spacing="-0.400000457" fill="#FFFFFF">
             <tspan x="13" y="20">Eksamenspakker</tspan>
         </text>
         <filter x="-7.1%" y="-37.5%" width="114.3%" height="175.0%" filterUnits="objectBoundingBox" id="filter-6">

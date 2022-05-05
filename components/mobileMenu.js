@@ -8,20 +8,26 @@ export default function MobileMenu() {
     <>
       <div
         className={`${styles.menuIcon}`}
-        onClick={() => setIsOpen(!isOpen)}
+        onClick={() => console.log("hello")}
       ></div>
-      <div className={styles.menu} ref={listRef}>
-        {[
-          ["Home", "/"],
-          ["App", "/app"],
-          ["Eksamenspakker", "/eksamenspakker"],
-          ["Social Club", "/social-club"],
-          ["Kontakt", "/kontakt"],
-        ].map(([title, url], i) => (
-          <Link key={url} href={url} passHref>
-            <a className={styles.menuItem}>{title}</a>
-          </Link>
-        ))}
+      <div
+        className={`${styles.container} ${
+          isOpen ? styles.open : styles.closed
+        } `}
+      >
+        <div className={`${styles.menu}`} ref={listRef}>
+          {[
+            ["Home", "/"],
+            ["App", "/app"],
+            ["Eksamenspakker", "/eksamenspakker"],
+            ["Social Club", "/social-club"],
+            ["Kontakt", "/kontakt"],
+          ].map(([title, url], i) => (
+            <Link key={url} href={url} passHref>
+              <a className={styles.menuItem}>{title}</a>
+            </Link>
+          ))}
+        </div>
       </div>
     </>
   );

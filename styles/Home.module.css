@@ -15,9 +15,16 @@
   right: 0;
 }
 .baggrund {
+  width: 100vw;
+  height: 100vh;
   position: absolute;
-  bottom: -200px;
-  right: -200px;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+.baggrund span {
+  right: -200px !important;
+  bottom: -260px !important;
 }
 .desktop {
   display: none;
@@ -27,10 +34,10 @@
   top: 460px !important;
 }
 
+.socialClub {
+  top: 460px !important;
+}
 @media screen and (min-width: 746px) {
-  .baggrund {
-    display: none;
-  }
   .desktop {
     display: block;
   }
@@ -49,7 +56,13 @@
     left: 457.5px !important;
     right: auto !important;
   }
-}
-.pcBaggrund {
-  display: none;
+  .socialClub {
+    top: 630px !important;
+    left: 385px !important;
+    right: auto !important;
+  }
+  .baggrund {
+    right: -300px !important;
+    bottom: -300px !important;
+  }
 }

@@ -1,19 +1,36 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import Video from "../components/video";
+import Video from "../components/Video";
 import { useRef, useEffect, useState } from "react";
+import MobileMenu from "../components/MobileMenu";
+import Footer from "../components/Footer";
 export default function Home() {
+  var siteHeight = useRef();
+  const [isDesktop, setDesktop] = useState(false);
+  useEffect(() => {
+    if (window.innerWidth > 746) {
+      setDesktop(true);
+    } else {
+      setDesktop(false);
+    }
+    const updateMedia = () => {
+      if (window.innerWidth > 746) {
+        setDesktop(true);
+      } else {
+        setDesktop(false);
+      }
+    };
+    window.addEventListener("resize", updateMedia);
+    return () => window.removeEventListener("resize", updateMedia);
+  }, []);
   return (
     <>
       <div className={styles.wrapper}>
         <object
-          className={styles.mobile}
-          data="/img/mobile/Home/Home.svg"
-        ></object>
-        <object
-          className={styles.desktop}
-          data="/img/desktop/home.svg"
+          ref={siteHeight}
+          className={isDesktop ? styles.desktop : styles.mobile}
+          data={`/img/${isDesktop ? "desktop" : "mobile/Home"}/Home.svg`}
         ></object>
         <div className={styles.figur}>
           <Image
@@ -23,27 +40,18 @@ export default function Home() {
             alt="figur"
           />
         </div>
-        <div className={styles.pcBaggrund}>
-          <Image
-            src="/img/desktop/Home/univers.png"
-            alt="desktop baggrund"
-            width={901}
-            height={1086}
-          />
-        </div>
-        <div className={styles.baggrund}>
-          <Image
-            src="/img/mobile/Home/universHome.png"
-            width={678}
-            height={865}
-            alt="figur"
-          />
-        </div>
-        <a className="facebook" href="https://www.facebook.com"></a>
-        <a className="tiktok" href="https://www.tiktok.com"></a>
-        <a className="instagram" href="https://www.instagram.com"></a>
       </div>
       <Video />
+      <MobileMenu isDesktop={isDesktop} />
+      <Footer refItem={siteHeight} isDesktop={isDesktop} />
+      <div className={styles.baggrund}>
+        <Image
+          src={`/img/${isDesktop ? "desktop" : "mobile/Home"}/univers.png`}
+          alt="baggrund"
+          layout="fill"
+          objectFit="cover"
+        />
+      </div>
     </>
   );
 }

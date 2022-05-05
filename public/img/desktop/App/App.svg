@@ -460,62 +460,6 @@
                 <use xlink:href="#path-13"></use>
             </mask>
             <use id="Rectangle" fill="url(#linearGradient-10)" xlink:href="#path-13"></use>
-            <g id="Group-7" mask="url(#mask-14)">
-                <g transform="translate(1559.000000, 520.000000)">
-                    <g id="Univers" stroke-width="1" fill="none" transform="translate(0.000000, 281.000000)">
-                        <g id="Group-3">
-                            <path d="M37.0705753,258.769226 L586,0 L586,0 L586,634 C586,662.718807 562.718807,686 534,686 L127.36122,686 C102.715468,686 81.4548564,668.698975 76.4463131,644.567511 L8.32864237,316.37246 C3.44362379,292.836146 15.3274819,269.019075 37.0705753,258.769226 Z" id="Univers" fill="url(#linearGradient-15)"></path>
-                            <g id="Stjerner-" transform="translate(288.000000, 96.000000)" fill-rule="nonzero">
-                                <g id="Path">
-                                    <use fill="black" fill-opacity="1" filter="url(#filter-17)" xlink:href="#path-16"></use>
-                                    <use fill="#FFFFFF" xlink:href="#path-16"></use>
-                                </g>
-                                <g id="Path">
-                                    <use fill="black" fill-opacity="1" filter="url(#filter-19)" xlink:href="#path-18"></use>
-                                    <use fill="#FFFFFF" xlink:href="#path-18"></use>
-                                </g>
-                                <g id="Path">
-                                    <use fill="black" fill-opacity="1" filter="url(#filter-21)" xlink:href="#path-20"></use>
-                                    <use fill="#FFFFFF" xlink:href="#path-20"></use>
-                                </g>
-                                <g id="Path">
-                                    <use fill="black" fill-opacity="1" filter="url(#filter-23)" xlink:href="#path-22"></use>
-                                    <use fill="#FFFFFF" xlink:href="#path-22"></use>
-                                </g>
-                                <g id="Path">
-                                    <use fill="black" fill-opacity="1" filter="url(#filter-25)" xlink:href="#path-24"></use>
-                                    <use fill="#FFFFFF" xlink:href="#path-24"></use>
-                                </g>
-                                <g id="Path">
-                                    <use fill="black" fill-opacity="1" filter="url(#filter-27)" xlink:href="#path-26"></use>
-                                    <use fill="#FFFFFF" xlink:href="#path-26"></use>
-                                </g>
-                                <g id="Path">
-                                    <use fill="black" fill-opacity="1" filter="url(#filter-29)" xlink:href="#path-28"></use>
-                                    <use fill="#FFFFFF" xlink:href="#path-28"></use>
-                                </g>
-                                <g id="Path">
-                                    <use fill="black" fill-opacity="1" filter="url(#filter-31)" xlink:href="#path-30"></use>
-                                    <use fill="#FFFFFF" xlink:href="#path-30"></use>
-                                </g>
-                                <g id="Path">
-                                    <use fill="black" fill-opacity="1" filter="url(#filter-33)" xlink:href="#path-32"></use>
-                                    <use fill="#FFFFFF" xlink:href="#path-32"></use>
-                                </g>
-                                <g id="Path">
-                                    <use fill="black" fill-opacity="1" filter="url(#filter-35)" xlink:href="#path-34"></use>
-                                    <use fill="#FFFFFF" xlink:href="#path-34"></use>
-                                </g>
-                                <g id="Path">
-                                    <use fill="black" fill-opacity="1" filter="url(#filter-37)" xlink:href="#path-36"></use>
-                                    <use fill="#FFFFFF" xlink:href="#path-36"></use>
-                                </g>
-                            </g>
-                        </g>
-                    </g>
-                    <ellipse id="Oval" fill="#EEF3F8" filter="url(#filter-38)" cx="503.5" cy="70.5" rx="104.5" ry="70.5"></ellipse>
-                </g>
-            </g>
         </g>
         <circle id="text-cirkel" fill="#ACB2C8" cx="421.5" cy="835.5" r="1.5"></circle>
         <g id="Download-button" transform="translate(247.000000, 886.000000)">

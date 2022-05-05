@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="96" height="96" viewBox="0 0 96 96">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.348" y1="0.16" x2="0.792" y2="0.907" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.2"/>
+    </linearGradient>
+    <filter id="Oval" x="0" y="0" width="96" height="96" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12.5" result="blur"/>
+      <feFlood flood-color="#000219" flood-opacity="0.055"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval-2" x="22.5" y="22.5" width="51" height="51" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-color="#000219" flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x1="0.104" y1="0.103" x2="0.822" y2="0.819" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#afb7c3"/>
+      <stop offset="1" stop-color="#afb6c3" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="Path" x="37.5" y="37.5" width="21" height="22" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-3"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="letter-c" transform="translate(37.5 37.5)">
+    <g transform="matrix(1, 0, 0, 1, -37.5, -37.5)" filter="url(#Oval)">
+      <circle id="Oval-3" data-name="Oval" cx="10.5" cy="10.5" r="10.5" transform="translate(37.5 37.5)" fill="url(#linear-gradient)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -37.5, -37.5)" filter="url(#Oval-2)">
+      <circle id="Oval-4" data-name="Oval" cx="10.5" cy="10.5" r="10.5" transform="translate(37.5 37.5)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Path-2" data-name="Path" d="M9.877,1.611A7.3,7.3,0,0,0,5.844,0,5.569,5.569,0,0,0,.634,3.281,5.95,5.95,0,0,0,0,5.771,5.7,5.7,0,0,0,1.63,9.84L7.8,16A10.467,10.467,0,0,0,16,7.721Z" transform="translate(6 5)" opacity="0.186" fill="url(#linear-gradient-3)"/>
+    <g transform="matrix(1, 0, 0, 1, -37.5, -37.5)" filter="url(#Path)">
+      <path id="Path-3" data-name="Path" d="M4.6,10A4.7,4.7,0,0,1,0,5.008,4.7,4.7,0,0,1,4.6,0,4.439,4.439,0,0,1,8.975,4.06H6.56A2.081,2.081,0,0,0,4.605,2.45,2.3,2.3,0,0,0,2.482,5.008,2.283,2.283,0,0,0,4.605,7.544,2.044,2.044,0,0,0,6.562,5.8H9A4.478,4.478,0,0,1,4.6,10Z" transform="translate(43.5 42.5)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

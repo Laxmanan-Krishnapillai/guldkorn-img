@@ -1,25 +1,24 @@
 import Link from "next/link";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 import styles from "../styles/Menu.module.css";
-export default function Menu() {
+export default function Menu({ isDesktop }) {
   return (
     <>
-      <div className={styles.desktopMenu}>
+      <div className={isDesktop ? styles.desktopMenu : styles.menu}>
         {[
-          ["Homemedpil", "/"],
+          [isDesktop ? "Homemedpil" : "Home", "/"],
           ["App", "/app"],
           ["Eksamenspakker", "/eksamenspakker"],
           ["SocialClub", "/social-club"],
-          ["Kontakt", "/kontakt"],
         ].map(([src, url], i) => (
-          <Link key={i} href={url}>
-            <a className={styles.menu}>
-              <Image
-                src={`/img/desktop/menu/${src}.svg`}
-                layout="raw"
-                height={100}
+          <Link passHref key={i} href={url}>
+            <a className={styles.wrapper}>
+              <object
+                data={`/img/${
+                  isDesktop ? "desktop" : "mobile"
+                }/menu/${src}.svg`}
                 alt={src}
-                objectFit="contain"
               />
             </a>
           </Link>

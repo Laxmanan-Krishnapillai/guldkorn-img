@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import styles from "../styles/Menu.module.css";
 export default function Menu({ isDesktop }) {
   return (
     <>

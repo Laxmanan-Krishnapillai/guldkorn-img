@@ -33,6 +33,14 @@ export default function Footer({ refItem, isDesktop }) {
             </Link>
           ))}
         </div>
+        <div>
+          <Image
+            src={`/icons/copyright.svg`}
+            height={isDesktop ? 20 : 10}
+            width={isDesktop ? 20 : 10}
+            alt="copyright"
+          />
+        </div>
       </div>
     </>
   );

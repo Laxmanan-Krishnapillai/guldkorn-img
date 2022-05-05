@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import styles from "../styles/Video.module.css";
 import Image from "next/image";
 export default function Video({
   src = "https://www.youtube.com/embed/US8ePkxYI3E",

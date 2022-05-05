@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import Video from "../components/Video";
 import { useRef, useEffect, useState } from "react";
+import Video from "../components/Video";
 export default function App() {
   return (
     <>

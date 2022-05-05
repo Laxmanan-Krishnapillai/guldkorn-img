@@ -3,8 +3,8 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Video from "../components/Video";
 import unique from "../styles/Unique.module.css";
-import { useRef, useEffect, useState } from "react";
 import MobileMenu from "../components/MobileMenu";
+import { useRef, useEffect, useState } from "react";
 export default function Eksamenspakker() {
   return (
     <>

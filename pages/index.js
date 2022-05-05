@@ -3,8 +3,8 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Video from "../components/Video";
 import { useRef, useEffect, useState } from "react";
-import MobileMenu from "../components/MobileMenu";
 import Footer from "../components/Footer";
+import MobileMenu from "../components/MobileMenu";
 export default function Home() {
   var siteHeight = useRef();
   const [isDesktop, setDesktop] = useState(false);

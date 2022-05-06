@@ -1,10 +1,11 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import Video from "../components/Video";
+import Video from "../components/video";
+import Menu from "../components/menu";
 import { useRef, useEffect, useState } from "react";
 import Footer from "../components/Footer";
-import MobileMenu from "../components/MobileMenu";
+import MobileMenu from "../components/mobileMenu";
 export default function Home() {
   var siteHeight = useRef();
   const [isDesktop, setDesktop] = useState(false);
@@ -30,7 +31,7 @@ export default function Home() {
         <object
           ref={siteHeight}
           className={isDesktop ? styles.desktop : styles.mobile}
-          data={`/img/${isDesktop ? "desktop" : "mobile/Home"}/Home.svg`}
+          data={`/img/${isDesktop ? "desktop" : "mobile/home"}/home.svg`}
         ></object>
         <div className={styles.figur}>
           <Image
@@ -46,12 +47,13 @@ export default function Home() {
       <Footer refItem={siteHeight} isDesktop={isDesktop} />
       <div className={styles.baggrund}>
         <Image
-          src={`/img/${isDesktop ? "desktop" : "mobile/Home"}/univers.png`}
+          src={`/img/${isDesktop ? "desktop" : "mobile/home"}/univers.png`}
           alt="baggrund"
           layout="fill"
           objectFit="cover"
         />
       </div>
+      <Menu />
     </>
   );
 }

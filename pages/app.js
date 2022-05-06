@@ -1,8 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import MobileMenu from "../components/mobileMenu";
 import { useRef, useEffect, useState } from "react";
-import Video from "../components/Video";
+import Video from "../components/video";
+import Menu from "../components/menu";
 export default function App() {
   return (
     <>
@@ -20,6 +22,8 @@ export default function App() {
         <a className="instagram" href="https://www.instagram.com"></a>
       </div>
       <Video />
+      <MobileMenu />
+      <Menu />
     </>
   );
 }

@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="375px" height="812px" viewBox="0 0 375 812" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Social Club</title>
+<style>
+@font-face {
+  font-family: "Avenir-bold";
+  src: url("/fonts/AvenirNextLTPro-Bold.otf");
+}
+@font-face {
+  font-family: "Avenir-light";
+  src: url("/fonts/AvenirNextLTPro-Regular.otf");
+}
+</style>
     <defs>
         <linearGradient x1="38.6755769%" y1="-3.33273437%" x2="63.5859139%" y2="110.502625%" id="linearGradient-1">
             <stop stop-color="#FFFFFF" offset="0%"></stop>
@@ -133,7 +143,7 @@
             <stop stop-color="#364976" offset="0%"></stop>
             <stop stop-color="#101A37" offset="100%"></stop>
         </linearGradient>
-        <text id="text-41" font-family="AvenirNext-Bold, Avenir Next" font-size="25" font-weight="bold" line-spacing="28" letter-spacing="-0.520834375">
+        <text id="text-41" font-family="Avenir-bold" font-size="25" font-weight="bold" line-spacing="28" letter-spacing="-0.520834375">
             <tspan x="0" y="25">Hos Guldkorns </tspan>
             <tspan x="0" y="53">Social Club </tspan>
             <tspan x="0" y="81">løfter vi i flok </tspan>
@@ -173,7 +183,7 @@
             <feGaussianBlur stdDeviation="12.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 5.73679768e-05   0 0 0 0 0.00814402248   0 0 0 0 0.097118433  0 0 0 0.0562172203 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <text id="text-52" font-family="AvenirNext-Bold, Avenir Next" font-size="12" font-weight="bold" letter-spacing="-0.1866672" fill="#FFFFFF">
+        <text id="text-52" font-family="Avenir-bold" font-size="12" font-weight="bold" letter-spacing="-0.1866672" fill="#FFFFFF">
             <tspan x="142.490005" y="64">2021 Guldkorn, ApS</tspan>
         </text>
         <filter x="-5.6%" y="-34.4%" width="111.2%" height="181.2%" filterUnits="objectBoundingBox" id="filter-53">
@@ -343,7 +353,7 @@
         <filter x="-129.6%" y="-169.9%" width="359.3%" height="439.9%" filterUnits="objectBoundingBox" id="filter-104">
             <feGaussianBlur stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
         </filter>
-        <text id="text-105" font-family="Avenir-Black, Avenir" font-size="30" font-weight="700" letter-spacing="-1.00000114" fill="#FFFFFF">
+        <text id="text-105" font-family="Avenir-bold" font-size="30" font-weight="700" letter-spacing="-1.00000114" fill="#FFFFFF">
             <tspan x="5.39500457" y="30.5354239">Guldkorn</tspan>
         </text>
         <filter x="-5.9%" y="-17.5%" width="111.9%" height="140.0%" filterUnits="objectBoundingBox" id="filter-106">
@@ -470,7 +480,7 @@
             <stop stop-color="#8ACBC9" offset="0%"></stop>
             <stop stop-color="#117261" offset="100%"></stop>
         </linearGradient>
-        <text id="text-141" font-family="Avenir-Black, Avenir" font-size="12" font-weight="700" letter-spacing="-0.400000457" fill="#FFFFFF">
+        <text id="text-141" font-family="Avenir-bold" font-size="12" font-weight="700" letter-spacing="-0.400000457" fill="#FFFFFF">
             <tspan x="19" y="20">Social Club</tspan>
         </text>
         <filter x="-10.3%" y="-37.5%" width="120.7%" height="175.0%" filterUnits="objectBoundingBox" id="filter-142">
@@ -525,7 +535,7 @@
                 <use fill="url(#linearGradient-40)" xlink:href="#text-41"></use>
                 <use fill="#192341" fill-opacity="1" xlink:href="#text-41"></use>
             </g>
-            <text id="Som-kunde-hos-Guldko" opacity="0.655831473" font-family="AvenirNext-Medium, Avenir Next" font-size="11" font-weight="400" line-spacing="16" letter-spacing="-0.166667" fill="#6C7598">
+            <text id="Som-kunde-hos-Guldko" opacity="0.655831473" font-family="Avenir-light" font-size="11" font-weight="700" line-spacing="16" letter-spacing="-0.166667" fill="#6C7598">
                 <tspan x="0" y="100">Som kunde hos Guldkorn er du altid sikret adgang til vores </tspan>
                 <tspan x="0" y="116">eksklusive læringsklub. Få hjælp fra alle vores superstudenter. </tspan>
                 <tspan x="0" y="132"></tspan>
@@ -540,7 +550,7 @@
                 <use fill="black" fill-opacity="1" filter="url(#filter-45)" xlink:href="#path-44"></use>
                 <use fill="url(#linearGradient-43)" fill-rule="evenodd" xlink:href="#path-44"></use>
             </g>
-            <text id="Præmier-og-giveaways" font-family="AvenirNext-Bold, Avenir Next" font-size="9" font-weight="bold" letter-spacing="-0.136363909" fill="#FFFFFF">
+            <text id="Præmier-og-giveaways" font-family="Avenir-bold" font-size="9" font-weight="bold" letter-spacing="-0.136363909" fill="#FFFFFF">
                 <tspan x="7.23818945" y="13">Præmier og giveaways hver måned     udforsk dine fordele </tspan>
             </text>
         </g>
@@ -647,64 +657,6 @@
                         <use fill="url(#linearGradient-54)" fill-rule="evenodd" xlink:href="#path-90"></use>
                     </g>
                 </g>
-            </g>
-        </g>
-        <g id="Guldkorn" transform="translate(123.000000, 41.000000)">
-            <g id="guld" transform="translate(1.000000, 4.000000)">
-                <g id="Home-guldkorn" transform="translate(0.782520, 0.765957)">
-                    <g id="Rectangle">
-                        <use fill="url(#linearGradient-92)" fill-rule="evenodd" xlink:href="#path-93"></use>
-                        <use fill="black" fill-opacity="1" filter="url(#filter-94)" xlink:href="#path-93"></use>
-                    </g>
-                    <ellipse id="Oval" fill="#4700FF" filter="url(#filter-95)" cx="19.0416667" cy="14.9361702" rx="7.43394309" ry="5.74468085"></ellipse>
-                    <g id="Rectangle" filter="url(#filter-97)">
-                        <use fill-opacity="0.72" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-96"></use>
-                        <use fill="black" fill-opacity="1" filter="url(#filter-98)" xlink:href="#path-96"></use>
-                    </g>
-                </g>
-                <g id="Oval-2">
-                    <use fill="#312755" fill-rule="evenodd" xlink:href="#path-99"></use>
-                    <use fill="black" fill-opacity="1" filter="url(#filter-100)" xlink:href="#path-99"></use>
-                </g>
-                <rect id="Rectangle" fill="#FFFFFF" opacity="0.530250186" filter="url(#filter-101)" x="13.9552846" y="28.8723404" width="2.34756098" height="3.06382979" rx="1.17378049"></rect>
-                <g id="Oval-2">
-                    <use fill="#FFCF4C" fill-rule="evenodd" xlink:href="#path-102"></use>
-                    <use fill="black" fill-opacity="1" filter="url(#filter-103)" xlink:href="#path-102"></use>
-                </g>
-            </g>
-            <g id="Group-6">
-                <ellipse id="Oval" fill="#2B49C5" filter="url(#filter-104)" cx="20.8285714" cy="22.9744483" rx="11.5714286" ry="8.82694541"></ellipse>
-                <g id="Guldkorn" fill="#FFFFFF" fill-opacity="1">
-                    <use filter="url(#filter-106)" xlink:href="#text-105"></use>
-                    <use xlink:href="#text-105"></use>
-                </g>
-            </g>
-            <g id="Cirkel-Rubrik-2" transform="translate(24.000000, 2.000000)">
-                <g id="Oval">
-                    <use fill="#ACC4D0" fill-rule="evenodd" xlink:href="#path-107"></use>
-                    <use fill="black" fill-opacity="1" filter="url(#filter-108)" xlink:href="#path-107"></use>
-                </g>
-                <rect id="Rectangle" fill="#ACC4D0" filter="url(#filter-109)" x="3.75" y="27.5294118" width="6.75" height="6.88235294" rx="3.375"></rect>
-                <rect id="Rectangle" fill="#F9CCFF" opacity="0.363583519" filter="url(#filter-110)" x="2" y="31" width="6.75" height="6.88235294" rx="3.375"></rect>
-                <g id="Cirkel-Rubrik">
-                    <use fill="#605294" fill-rule="evenodd" xlink:href="#path-111"></use>
-                    <use fill="black" fill-opacity="1" filter="url(#filter-112)" xlink:href="#path-111"></use>
-                </g>
-            </g>
-        </g>
-        <g id="Menu-ball" transform="translate(322.000000, 51.000000)">
-            <ellipse id="Oval" fill="url(#linearGradient-113)" opacity="0.897693452" cx="13" cy="11.5" rx="11.7" ry="11.5"></ellipse>
-            <g id="ball-slide-" transform="translate(2.600000, 2.555556)">
-                <g id="Oval" opacity="0.491048177" filter="url(#filter-116)">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-117)" xlink:href="#path-115"></use>
-                    <use fill="url(#linearGradient-114)" fill-rule="evenodd" xlink:href="#path-115"></use>
-                </g>
-                <ellipse id="Oval" fill="#D8D8D8" opacity="0.292759487" filter="url(#filter-118)" cx="4.55" cy="7.02777778" rx="4.55" ry="4.47222222"></ellipse>
-                <ellipse id="Oval" fill="#93ECFF" opacity="0.556663876" filter="url(#filter-119)" cx="6.5" cy="1.91666667" rx="3.9" ry="1.91666667"></ellipse>
-            </g>
-            <g id="Shape" fill-rule="nonzero">
-                <use fill="black" fill-opacity="1" filter="url(#filter-121)" xlink:href="#path-120"></use>
-                <use fill="#FFFFFF" xlink:href="#path-120"></use>
             </g>
         </g>
         <g id="Menu" transform="translate(6.000000, 326.000000)">

@@ -1,8 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import Video from "../components/Video";
+import Video from "../components/video";
+import MobileMenu from "../components/mobileMenu";
 import { useRef, useEffect, useState } from "react";
+import Menu from "../components/menu";
 export default function SocialClub() {
   return (
     <>
@@ -33,6 +35,8 @@ export default function SocialClub() {
         </div>
       </div>
       <Video adem={styles.socialClub} />
+      <MobileMenu />
+      <Menu />
     </>
   );
 }

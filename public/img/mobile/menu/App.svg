@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="77px" height="51px" viewBox="0 0 77 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>App</title>
+<style>
+@font-face {
+  font-family: "Avenir-bold";
+  src: url("/fonts/AvenirNextLTPro-Bold.otf");
+}
+@font-face {
+  font-family: "Avenir-light";
+  src: url("/fonts/AvenirNextLTPro-Regular.otf");
+}
+</style>
     <defs>
         <linearGradient x1="34.8394439%" y1="39.9357988%" x2="79.2076772%" y2="62.0413724%" id="linearGradient-1">
             <stop stop-color="#FFFFFF" stop-opacity="0.4" offset="0%"></stop>
@@ -16,7 +26,7 @@
             <stop stop-color="#C88C7D" offset="0%"></stop>
             <stop stop-color="#99255A" offset="100%"></stop>
         </linearGradient>
-        <text id="text-5" font-family="Avenir-Black, Avenir" font-size="12" font-weight="700" letter-spacing="-0.400000457" fill="#FFFFFF">
+        <text id="text-5" font-family="Avenir-bold" font-size="12" font-weight="700" letter-spacing="-0.400000457" fill="#FFFFFF">
             <tspan x="17" y="19">App</tspan>
         </text>
         <filter x="-30.4%" y="-37.5%" width="156.5%" height="175.0%" filterUnits="objectBoundingBox" id="filter-6">

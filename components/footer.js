@@ -26,21 +26,21 @@ export default function Footer({ refItem, isDesktop }) {
                     isDesktop ? "desktop" : "mobile"
                   }/footer/${src}.svg`}
                   alt={src}
-                  width={isDesktop ? 100 : 45}
-                  height={isDesktop ? 100 : 45}
+                  width={isDesktop ? 100 : 65}
+                  height={isDesktop ? 100 : 65}
                 />
               </a>
             </Link>
           ))}
         </div>
-        <div>
+        {/* <div className={styles.copyright}>
           <Image
             src={`/icons/copyright.svg`}
-            height={isDesktop ? 20 : 10}
-            width={isDesktop ? 20 : 10}
+            height={isDesktop ? 100 : 80}
+            width={isDesktop ? 100 : 80}
             alt="copyright"
           />
-        </div>
+        </div>*/}
       </div>
     </>
   );

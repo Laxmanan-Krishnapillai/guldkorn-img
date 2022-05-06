@@ -1,12 +1,18 @@
 .menu {
   height: 100px;
   width: 100%;
-  position: relative;
-  display: block;
+  position: absolute;
+  top: 310px;
+  width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  opacity: 0;
 }
 .wrapper {
   height: 79px;
   display: inline-block;
+  margin: 0 -5px;
 }
 .desktopFooter,
 .footer {
@@ -28,6 +34,9 @@
   left: 0;
   height: 130px;
 }
+.footerWrapper:nth-child(2) {
+  margin: 0 -30px;
+}
 .iconWrapper {
   position: absolute;
   left: 0;
@@ -37,7 +46,16 @@
   align-items: center;
   width: 100vw;
 }
-
+.copyright {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media screen and (min-width: 746px) {
   .footerBaggrund {
     height: 200px;

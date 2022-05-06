@@ -1,9 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import Video from "../components/Video";
+import Video from "../components/video";
 import unique from "../styles/Unique.module.css";
-import MobileMenu from "../components/MobileMenu";
+import MobileMenu from "../components/mobileMenu";
 import { useRef, useEffect, useState } from "react";
 export default function Eksamenspakker() {
   return (
@@ -30,6 +30,7 @@ export default function Eksamenspakker() {
         <a className="tiktok" href="https://www.tiktok.com"></a>
         <a className="instagram" href="https://www.instagram.com"></a>
       </div>
+      <MobileMenu />
     </>
   );
 }

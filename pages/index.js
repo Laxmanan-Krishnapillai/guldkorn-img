@@ -35,7 +35,7 @@ export default function Home() {
         ></object>
         <div className={styles.figur}>
           <Image
-            src="/img/mobile/Home/3DFigurHome.png"
+            src="/img/mobile/home/3DFigurHome.png"
             width={177}
             height={358}
             alt="figur"

@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 import Video from "../components/video";
 import Menu from "../components/menu";
 import { useRef, useEffect, useState } from "react";
-import Footer from "../components/Footer";
+import Footer from "../components/footer";
 import MobileMenu from "../components/mobileMenu";
 export default function Home() {
   var siteHeight = useRef();
